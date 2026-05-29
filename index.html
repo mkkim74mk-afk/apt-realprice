@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>대치동 실거래 카드</title>
+<style>
+  :root{
+    --paper:#ece6d8; --paper2:#e1dac8; --ink:#1b2620; --inksoft:#5c665e;
+    --line:#d6cfbc; --card:#fbfaf4; --sale:#0e6a4b; --salesoft:#e4efe8;
+    --jeonse:#b25e29; --jeonsesoft:#f3e7da; --gold:#a4824a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--paper); color:var(--ink); -webkit-text-size-adjust:100%;
+    font-family:'Pretendard',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+    background-image:radial-gradient(circle at 15% 0%,rgba(255,255,255,.5),transparent 45%),
+      radial-gradient(circle at 100% 100%,rgba(164,130,74,.10),transparent 40%);
+    min-height:100vh;
+  }
+  .wrap{max-width:540px;margin:0 auto;padding:0 14px 44px}
+  .eyebrow{display:flex;align-items:center;gap:6px;font-size:12px;letter-spacing:.18em;color:var(--gold);font-weight:700;padding-top:26px}
+  h1{margin:6px 0 0;font-size:27px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+  .sub{margin:8px 0 0;font-size:13.5px;color:var(--inksoft);line-height:1.5}
+  .meta{display:flex;gap:8px;margin:14px 0 0;flex-wrap:wrap}
+  .meta .chip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:9px 13px;font-size:12px;color:var(--inksoft)}
+  .meta .chip b{color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums}
+  .meta .dark{background:var(--ink);color:#f4efe2;border:none}
+  .meta .dark span{display:block;font-size:10.5px;opacity:.7;letter-spacing:.08em}
+  .meta .dark b{color:#fff;font-size:15px}
+  .search{position:relative;margin:16px 0}
+  .search input{width:100%;padding:11px 38px 11px 16px;border-radius:14px;border:1px solid var(--line);
+    background:var(--card);font:inherit;font-size:15px;color:var(--ink);outline:none}
+  .search .clr{position:absolute;right:8px;top:7px;border:none;background:var(--paper2);border-radius:8px;
+    width:28px;height:28px;cursor:pointer;font-size:15px;color:var(--inksoft)}
+  .banner{display:flex;gap:8px;align-items:center;background:var(--jeonsesoft);color:var(--jeonse);
+    border-radius:12px;padding:9px 12px;font-size:12.5px;font-weight:600;margin-bottom:12px}
+  .scroller{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -14px;padding:0 14px;
+    scrollbar-width:none}
+  .scroller::-webkit-scrollbar{display:none}
+  .slide{flex:0 0 100%;scroll-snap-align:center}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px;
+    box-shadow:0 12px 30px -18px rgba(27,38,32,.4);animation:rise .45s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .chead{display:flex;gap:12px;align-items:flex-start}
+  .badge{width:42px;height:42px;border-radius:12px;background:var(--ink);color:#f4efe2;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:20px}
+  .cname{margin:0;font-size:20px;font-weight:800;letter-spacing:-.02em}
+  .cinfo{font-size:12px;color:var(--inksoft);margin-top:2px}
+  .stats{display:flex;gap:8px;margin-top:14px}
+  .stat{flex:1;border-radius:12px;padding:8px 10px}
+  .stat .l{font-size:10.5px;color:var(--inksoft)}
+  .stat .v{font-size:15px;font-weight:800;margin-top:1px;font-variant-numeric:tabular-nums}
+  .sec{margin-top:16px}
+  .sech{display:flex;align-items:center;gap:6px;margin-bottom:8px}
+  .tag{font-size:12px;font-weight:700;color:#fff;padding:3px 9px;border-radius:8px}
+  .sech .ln{flex:1;height:1px;background:var(--line)}
+  .row,.rowh{display:grid;grid-template-columns:52px 1fr 38px 1fr;gap:4px;align-items:center}
+  .rowh{font-size:10.5px;color:var(--inksoft);padding:0 2px 5px}
+  .row{padding:7px 2px;border-top:1px solid var(--line);font-size:13px}
+  .row .dt{color:var(--inksoft);font-variant-numeric:tabular-nums}
+  .row .ar b{font-weight:600;font-variant-numeric:tabular-nums}
+  .row .ar .py{font-size:11px;margin-left:5px;font-weight:600}
+  .row .fl{text-align:center;color:var(--inksoft);font-variant-numeric:tabular-nums}
+  .row .amt{text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+  .empty{font-size:12.5px;color:var(--inksoft);padding:8px 2px}
+  .note{margin:14px 0 0;font-size:10.5px;color:var(--inksoft);line-height:1.45}
+  .nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:16px}
+  .nav button{width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--card);
+    cursor:pointer;font-size:18px;color:var(--ink);display:flex;align-items:center;justify-content:center}
+  .nav button:disabled{opacity:.35;cursor:default}
+  .dots{display:flex;gap:7px}
+  .dot{width:7px;height:7px;border-radius:4px;background:var(--line);transition:all .25s}
+  .dot.on{width:22px;background:var(--ink)}
+  .count{text-align:center;margin-top:10px;font-size:12px;color:var(--inksoft)}
+  .load{text-align:center;padding:60px 0;color:var(--inksoft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">◈ 강남구 대치동</div>
+  <h1>국토부 실거래 카드</h1>
+  <p class="sub">매매·전세 · 전용면적 기준 추정 평형 · 매달 자동 갱신</p>
+
+  <div class="meta" id="meta"></div>
+
+  <div class="search">
+    <input id="q" placeholder="아파트 검색 (예: 래미안)" oninput="onSearch()">
+    <button class="clr" id="clr" style="display:none" onclick="clearQ()">×</button>
+  </div>
+
+  <div id="app"><div class="load">불러오는 중…</div></div>
+</div>
+
+<script>
+const EOK = 10000;
+let DATA = null, view = [], idx = 0;
+
+function won(m){
+  if(!m) return '-';
+  const eok = Math.floor(m/EOK), rest = m%EOK;
+  if(eok>0) return rest>0 ? eok+'억 '+rest.toLocaleString() : eok+'억';
+  return m.toLocaleString()+'만';
+}
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+function rowsHtml(rows, kind, color){
+  if(!rows.length) return '<div class="empty">해당 기간 거래 없음</div>';
+  const head = '<div class="rowh"><span>계약일</span><span>전용/평형</span>'
+    + '<span style="text-align:center">층</span>'
+    + '<span style="text-align:right">'+(kind==='sale'?'거래금액':'보증금')+'</span></div>';
+  const body = rows.map(r=>(
+    '<div class="row"><span class="dt">'+r.ym.slice(4,6)+'/'+r.day+'</span>'
+    + '<span class="ar"><b>'+r.area+'㎡</b><span class="py" style="color:'+color+'">약 '+r.pyeong+'평</span></span>'
+    + '<span class="fl">'+(r.floor||'-')+'</span>'
+    + '<span class="amt" style="color:'+color+'">'+won(r.amount)+'</span></div>'
+  )).join('');
+  return head+body;
+}
+
+function cardHtml(c){
+  const top = c.sale.reduce((m,r)=>Math.max(m,r.amount),0);
+  return '<div class="slide"><div class="card">'
+    + '<div class="chead"><div class="badge">🏢</div><div>'
+      + '<h2 class="cname">'+esc(c.name)+'</h2>'
+      + '<div class="cinfo">서울 강남구 대치동 · '+c.built+'년 준공</div></div></div>'
+    + '<div class="stats">'
+      + '<div class="stat" style="background:var(--salesoft)"><div class="l">매매</div><div class="v" style="color:var(--sale)">'+c.sale.length+'건</div></div>'
+      + '<div class="stat" style="background:var(--jeonsesoft)"><div class="l">전세</div><div class="v" style="color:var(--jeonse)">'+c.jeonse.length+'건</div></div>'
+      + '<div class="stat" style="background:var(--paper);flex:1.4"><div class="l">최고 매매가</div><div class="v">'+(top?won(top):'-')+'</div></div>'
+    + '</div>'
+    + '<div class="sec"><div class="sech"><span class="tag" style="background:var(--sale)">매매</span><span class="ln"></span></div>'+rowsHtml(c.sale,'sale','var(--sale)')+'</div>'
+    + '<div class="sec"><div class="sech"><span class="tag" style="background:var(--jeonse)">전세</span><span class="ln"></span></div>'+rowsHtml(c.jeonse,'jeonse','var(--jeonse)')+'</div>'
+    + '<p class="note">※ 평형은 전용면적 ÷ '+DATA.efficiency+'(전용률 가정) ÷ 3.3058 로 산출한 추정치입니다.</p>'
+    + '</div></div>';
+}
+
+function render(){
+  const app = document.getElementById('app');
+  if(!view.length){ app.innerHTML = '<div class="load">검색 결과가 없습니다.</div>'; return; }
+  if(idx >= view.length) idx = 0;
+  app.innerHTML = '<div class="scroller" id="sc" onscroll="onScroll()">'
+    + view.map(cardHtml).join('') + '</div>'
+    + '<div class="nav"><button id="prev" onclick="go(-1)">‹</button>'
+    + '<div class="dots">'+view.map((_,i)=>'<span class="dot'+(i===idx?' on':'')+'"></span>').join('')+'</div>'
+    + '<button id="next" onclick="go(1)">›</button></div>'
+    + '<p class="count"><span id="cur">1</span> / '+view.length+' · 옆으로 넘겨보세요</p>';
+  updateNav();
+}
+function onScroll(){ const sc=document.getElementById('sc'); idx=Math.round(sc.scrollLeft/sc.clientWidth); updateNav(); }
+function go(d){ const sc=document.getElementById('sc'); sc.scrollBy({left:d*sc.clientWidth,behavior:'smooth'}); }
+function updateNav(){
+  document.getElementById('cur').textContent = idx+1;
+  document.getElementById('prev').disabled = idx<=0;
+  document.getElementById('next').disabled = idx>=view.length-1;
+  document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('on',i===idx));
+}
+function onSearch(){
+  const q = document.getElementById('q').value.replace(/\s/g,'').toLowerCase();
+  document.getElementById('clr').style.display = q?'block':'none';
+  view = !q ? DATA.targets.slice() : DATA.targets.filter(t=>t.name.replace(/\s/g,'').toLowerCase().includes(q));
+  idx = 0; render();
+}
+function clearQ(){ document.getElementById('q').value=''; onSearch(); }
+
+fetch('./data.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  DATA = d; view = d.targets.slice();
+  let html = '<div class="chip dark"><span>조회 대상 (계약월)</span><b>'+d.window+'</b></div>'
+    + '<div class="chip">갱신 <b>'+d.generated+'</b></div>';
+  document.getElementById('meta').innerHTML = html;
+  if(d.demo){
+    const b=document.createElement('div'); b.className='banner';
+    b.textContent='ⓘ 샘플(예시) 데이터입니다. API 키로 첫 실행하면 실제 거래로 교체됩니다.';
+    document.getElementById('app').before(b);
+  }
+  render();
+}).catch(e=>{
+  document.getElementById('app').innerHTML =
+    '<div class="load">data.json 을 불러오지 못했습니다.<br>워크플로를 한 번 실행해 생성하세요.</div>';
+});
+</script>
+</body>
+</html>
