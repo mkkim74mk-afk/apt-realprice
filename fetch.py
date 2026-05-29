@@ -2,40 +2,120 @@
 # -*- coding: utf-8 -*-
 """
 국토부 아파트 실거래(매매/전세) 자동 수집 → data.json
-- 기준: 실행하는 날의 직전 2개월(계약년월)
-- 지역: 서울 강남구(11680) 대치동
-- 단지: 래미안대치팰리스 / 대치르엘 / 동부센트레빌 / 대치아이파크
-환경변수 MOLIT_KEY 에 공공데이터포털 '일반 인증키(Decoding)' 를 넣어 실행.
-키가 없으면 샘플(예시) 데이터를 생성합니다.
+직전 2개월(계약년월) · 강남구/송파구/강동구/서초구
+환경변수 MOLIT_KEY 에 공공데이터포털 '일반 인증키(Decoding)' 값을 넣어 실행.
 """
 import os, json, datetime, sys
 import xml.etree.ElementTree as ET
 import urllib.request, urllib.parse
 
 KEY = os.environ.get("MOLIT_KEY", "").strip()
-LAWD_CD = "11680"          # 강남구 법정동코드 앞 5자리
-DONG = "대치동"            # 동 필터
-EFF = 0.74                 # 전용률 가정(평형 추정)
+EFF = 0.74  # 전용률 가정(평형 추정)
 
+# (id, name, keys[], lawd_cd, dong(str|list), built, units, loc)
 TARGETS = [
-    {"id": "rmadp",  "name": "래미안대치팰리스", "keys": ["래미안대치팰리스"], "built": "2015"},
-    {"id": "reelle", "name": "대치르엘",        "keys": ["대치르엘"],        "built": "2023"},
-    {"id": "dongbu", "name": "동부센트레빌",      "keys": ["동부센트레빌"],      "built": "2005"},
-    {"id": "ipark",  "name": "대치아이파크",      "keys": ["대치아이파크"],      "built": "2008"},
+    # ───────── 강남구 대치동 (11680) ─────────
+    {"id":"daechi-palace","name":"래미안대치팰리스","keys":["래미안대치팰리스"],"lawd":"11680","dong":"대치동","built":"2015","units":None,"loc":"강남구 대치동"},
+    {"id":"daechi-reelle","name":"대치르엘","keys":["대치르엘"],"lawd":"11680","dong":"대치동","built":"2023","units":None,"loc":"강남구 대치동"},
+    {"id":"daechi-dongbu","name":"동부센트레빌","keys":["동부센트레빌"],"lawd":"11680","dong":"대치동","built":"2005","units":None,"loc":"강남구 대치동"},
+    {"id":"daechi-ipark","name":"대치아이파크","keys":["대치아이파크"],"lawd":"11680","dong":"대치동","built":"2008","units":None,"loc":"강남구 대치동"},
+    {"id":"daechi-skview","name":"대치SK뷰","keys":["대치SK뷰","대치에스케이뷰"],"lawd":"11680","dong":"대치동","built":"2017","units":239,"loc":"강남구 대치동"},
+    {"id":"daechi-samsung1","name":"대치삼성1차","keys":["대치삼성1"],"lawd":"11680","dong":"대치동","built":"2000","units":960,"loc":"강남구 대치동"},
+    {"id":"daechi-hyundai","name":"대치현대","keys":["대치현대"],"lawd":"11680","dong":"대치동","built":"1999","units":630,"loc":"강남구 대치동"},
+    {"id":"daechi-pugio-summit","name":"대치푸르지오써밋","keys":["대치푸르지오써밋"],"lawd":"11680","dong":"대치동","built":"2023","units":489,"loc":"강남구 대치동"},
+    {"id":"daechi-hi-stern","name":"래미안대치하이스턴","keys":["래미안대치하이스턴","대치하이스턴"],"lawd":"11680","dong":"대치동","built":"2014","units":354,"loc":"강남구 대치동"},
+    {"id":"daechi-eunma","name":"은마","keys":["은마"],"lawd":"11680","dong":"대치동","built":"1979","units":4424,"loc":"강남구 대치동"},
+    {"id":"gaepo-wooseong","name":"개포우성1·2차","keys":["개포우성1","개포우성2"],"lawd":"11680","dong":["대치동","개포동"],"built":"1983","units":1140,"loc":"강남구 대치/개포동"},
+    {"id":"seonkyung","name":"선경1·2차","keys":["선경1","선경2"],"lawd":"11680","dong":"대치동","built":"1983","units":1034,"loc":"강남구 대치동"},
+    {"id":"mido","name":"한보미도맨션1·2차","keys":["한보미도맨션","미도맨션"],"lawd":"11680","dong":"대치동","built":"1983","units":2436,"loc":"강남구 대치동"},
+
+    # ───────── 강남구 도곡동 ─────────
+    {"id":"dogok-rexle","name":"도곡렉슬","keys":["도곡렉슬"],"lawd":"11680","dong":"도곡동","built":"2006","units":3002,"loc":"강남구 도곡동"},
+    {"id":"tower-palace2","name":"타워팰리스2차","keys":["타워팰리스2"],"lawd":"11680","dong":"도곡동","built":"2003","units":813,"loc":"강남구 도곡동"},
+
+    # ───────── 강남구 역삼동 ─────────
+    {"id":"gn-central-ipark","name":"강남센트럴아이파크","keys":["강남센트럴아이파크"],"lawd":"11680","dong":"역삼동","built":"2022","units":499,"loc":"강남구 역삼동"},
+    {"id":"yeoksam-rmian","name":"역삼래미안","keys":["역삼래미안"],"lawd":"11680","dong":"역삼동","built":"2005","units":1050,"loc":"강남구 역삼동"},
+    {"id":"rmian-graytun3","name":"래미안그레이튼3차","keys":["래미안그레이튼3","그레이튼3"],"lawd":"11680","dong":"역삼동","built":"2009","units":476,"loc":"강남구 역삼동"},
+    {"id":"yeoksam-zai","name":"역삼자이","keys":["역삼자이"],"lawd":"11680","dong":"역삼동","built":"2016","units":408,"loc":"강남구 역삼동"},
+    {"id":"gaenari-skview","name":"개나리SK뷰","keys":["개나리SK뷰","개나리에스케이뷰"],"lawd":"11680","dong":"역삼동","built":"2012","units":240,"loc":"강남구 역삼동"},
+
+    # ───────── 강남구 개포동 ─────────
+    {"id":"dh-firstier","name":"디에이치퍼스티어아이파크","keys":["디에이치퍼스티어아이파크","퍼스티어아이파크"],"lawd":"11680","dong":"개포동","built":"2023","units":6702,"loc":"강남구 개포동"},
+    {"id":"rmian-blestige","name":"래미안블레스티지","keys":["래미안블레스티지","블레스티지"],"lawd":"11680","dong":"개포동","built":"2019","units":1957,"loc":"강남구 개포동"},
+    {"id":"gaepo-rmian-forest","name":"개포래미안포레스트","keys":["개포래미안포레스트"],"lawd":"11680","dong":"개포동","built":"2020","units":2296,"loc":"강남구 개포동"},
+    {"id":"dh-honor-hills","name":"디에이치아너힐스","keys":["디에이치아너힐스","아너힐스"],"lawd":"11680","dong":"개포동","built":"2019","units":1320,"loc":"강남구 개포동"},
+    {"id":"gaepo-zai-pres","name":"개포자이프레지던스","keys":["개포자이프레지던스","자이프레지던스"],"lawd":"11680","dong":"개포동","built":"2023","units":3375,"loc":"강남구 개포동"},
+
+    # ───────── 강남구 일원동 ─────────
+    {"id":"dh-zai-gaepo","name":"디에이치자이개포","keys":["디에이치자이개포"],"lawd":"11680","dong":"일원동","built":"2021","units":1996,"loc":"강남구 일원동"},
+    {"id":"rmian-lucheheim","name":"래미안개포루체하임","keys":["래미안개포루체하임","루체하임"],"lawd":"11680","dong":"일원동","built":"2018","units":850,"loc":"강남구 일원동"},
+    {"id":"mokryun-town","name":"목련타운","keys":["목련타운"],"lawd":"11680","dong":"일원동","built":"1993","units":650,"loc":"강남구 일원동"},
+    {"id":"pureun-village","name":"푸른마을","keys":["푸른마을"],"lawd":"11680","dong":"일원동","built":"1994","units":930,"loc":"강남구 일원동"},
+    {"id":"saemter-village","name":"샘터마을","keys":["샘터마을"],"lawd":"11680","dong":"일원동","built":"1993","units":628,"loc":"강남구 일원동"},
+
+    # ───────── 강남구 수서동 ─────────
+    {"id":"kkachi-village","name":"까치마을","keys":["까치마을"],"lawd":"11680","dong":"수서동","built":"1993","units":1404,"loc":"강남구 수서동"},
+    {"id":"suseo-samik","name":"삼익","keys":["삼익"],"lawd":"11680","dong":"수서동","built":"1992","units":645,"loc":"강남구 수서동"},
+    {"id":"suseo-shindonga","name":"신동아","keys":["신동아"],"lawd":"11680","dong":"수서동","built":"1992","units":1162,"loc":"강남구 수서동"},
+    {"id":"suseo-haarum","name":"수서한아름","keys":["수서한아름","한아름"],"lawd":"11680","dong":"수서동","built":"1993","units":498,"loc":"강남구 수서동"},
+
+    # ───────── 강남구 삼성동 ─────────
+    {"id":"ss-central-ipark","name":"삼성동센트럴아이파크","keys":["삼성동센트럴아이파크"],"lawd":"11680","dong":"삼성동","built":"2018","units":416,"loc":"강남구 삼성동"},
+    {"id":"rmian-la-classy","name":"래미안라클래시","keys":["래미안라클래시","라클래시"],"lawd":"11680","dong":"삼성동","built":"2021","units":679,"loc":"강남구 삼성동"},
+    {"id":"acro-samsung","name":"아크로삼성","keys":["아크로삼성"],"lawd":"11680","dong":"삼성동","built":"2025","units":419,"loc":"강남구 삼성동"},
+    {"id":"ss-hillstate1","name":"삼성동힐스테이트1단지","keys":["삼성동힐스테이트1","힐스테이트1단지"],"lawd":"11680","dong":"삼성동","built":"2008","units":1144,"loc":"강남구 삼성동"},
+
+    # ───────── 강남구 청담동 ─────────
+    {"id":"chungdam-zai","name":"청담자이","keys":["청담자이"],"lawd":"11680","dong":"청담동","built":"2011","units":708,"loc":"강남구 청담동"},
+    {"id":"chungdam-reelle","name":"청담르엘","keys":["청담르엘"],"lawd":"11680","dong":"청담동","built":"2025","units":1261,"loc":"강남구 청담동"},
+
+    # ───────── 강남구 압구정동 ─────────
+    {"id":"ap-misung1","name":"미성1차","keys":["미성1"],"lawd":"11680","dong":"압구정동","built":"1982","units":322,"loc":"강남구 압구정동"},
+    {"id":"ap-misung2","name":"미성2차","keys":["미성2"],"lawd":"11680","dong":"압구정동","built":"1987","units":911,"loc":"강남구 압구정동"},
+    {"id":"ap-shinhyundae","name":"신현대 9·11·12차","keys":["신현대"],"lawd":"11680","dong":"압구정동","built":"1982","units":1924,"loc":"강남구 압구정동"},
+    {"id":"ap-hyundae67","name":"현대 6·7차","keys":["현대6","현대7"],"lawd":"11680","dong":"압구정동","built":"1978","units":1288,"loc":"강남구 압구정동"},
+    {"id":"ap-yd-hanyang1","name":"영동한양1차","keys":["영동한양1"],"lawd":"11680","dong":"압구정동","built":"1977","units":936,"loc":"강남구 압구정동"},
+    {"id":"ap-hanyang5","name":"한양5차","keys":["한양5"],"lawd":"11680","dong":"압구정동","built":"1979","units":343,"loc":"강남구 압구정동"},
+
+    # ───────── 송파구 (11710) ─────────
+    {"id":"helio-city","name":"헬리오시티","keys":["헬리오시티"],"lawd":"11710","dong":"가락동","built":"2018","units":9510,"loc":"송파구 가락동"},
+    {"id":"park-rio","name":"파크리오","keys":["파크리오"],"lawd":"11710","dong":"신천동","built":"2008","units":6864,"loc":"송파구 신천동"},
+    {"id":"jamsil-reelle","name":"잠실르엘","keys":["잠실르엘"],"lawd":"11710","dong":"신천동","built":"2026","units":1865,"loc":"송파구 신천동"},
+    {"id":"jamsil-rmian-ipark","name":"잠실래미안아이파크","keys":["잠실래미안아이파크"],"lawd":"11710","dong":"신천동","built":"2026","units":2678,"loc":"송파구 신천동"},
+    {"id":"jamsil-els","name":"잠실엘스","keys":["잠실엘스","엘스"],"lawd":"11710","dong":"잠실동","built":"2008","units":5678,"loc":"송파구 잠실동"},
+    {"id":"trizium","name":"트리지움","keys":["트리지움"],"lawd":"11710","dong":"잠실동","built":"2008","units":3696,"loc":"송파구 잠실동"},
+    {"id":"rissents","name":"리센츠","keys":["리센츠"],"lawd":"11710","dong":"잠실동","built":"2008","units":5563,"loc":"송파구 잠실동"},
+
+    # ───────── 강동구 (11740) ─────────
+    {"id":"olympic-foreon","name":"올림픽파크포레온","keys":["올림픽파크포레온","파크포레온"],"lawd":"11740","dong":"둔촌동","built":"2024","units":12032,"loc":"강동구 둔촌동"},
+    {"id":"theshop-doonchon","name":"더샵둔촌포레","keys":["더샵둔촌포레","둔촌포레"],"lawd":"11740","dong":"둔촌동","built":"2024","units":572,"loc":"강동구 둔촌동"},
+    {"id":"doonchon-pugio","name":"둔촌푸르지오","keys":["둔촌푸르지오"],"lawd":"11740","dong":"둔촌동","built":"2010","units":800,"loc":"강동구 둔촌동"},
+    {"id":"godeok-grasium","name":"고덕그라시움","keys":["고덕그라시움","그라시움"],"lawd":"11740","dong":"고덕동","built":"2019","units":4932,"loc":"강동구 고덕동"},
+    {"id":"godeok-central-pugio","name":"고덕센트럴푸르지오","keys":["고덕센트럴푸르지오"],"lawd":"11740","dong":"고덕동","built":"2020","units":656,"loc":"강동구 고덕동"},
+
+    # ───────── 서초구 (11650) ─────────
+    {"id":"rmian-onebailey","name":"래미안원베일리","keys":["래미안원베일리","원베일리"],"lawd":"11650","dong":"반포동","built":"2023","units":2990,"loc":"서초구 반포동"},
+    {"id":"acro-riverpark","name":"아크로리버파크","keys":["아크로리버파크"],"lawd":"11650","dong":"반포동","built":"2016","units":1612,"loc":"서초구 반포동"},
+    {"id":"rmian-furstige","name":"래미안퍼스티지","keys":["래미안퍼스티지","퍼스티지"],"lawd":"11650","dong":"반포동","built":"2009","units":2444,"loc":"서초구 반포동"},
+    {"id":"banpo-zai","name":"반포자이","keys":["반포자이"],"lawd":"11650","dong":"반포동","built":"2009","units":3410,"loc":"서초구 반포동"},
+    {"id":"shinbanpo4","name":"신반포4차","keys":["신반포4"],"lawd":"11650","dong":"잠원동","built":"1979","units":1212,"loc":"서초구 잠원동"},
+    {"id":"shinbanpo-zai","name":"신반포자이","keys":["신반포자이"],"lawd":"11650","dong":"잠원동","built":"2018","units":607,"loc":"서초구 잠원동"},
+    {"id":"maple-zai","name":"메이플자이","keys":["메이플자이"],"lawd":"11650","dong":"잠원동","built":"2025","units":3307,"loc":"서초구 잠원동"},
+    {"id":"banpo-reelle","name":"반포르엘","keys":["반포르엘"],"lawd":"11650","dong":"잠원동","built":"2022","units":None,"loc":"서초구 잠원동"},
 ]
 
 TRADE_URL = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade"
 RENT_URL  = "https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAptRent"
 
 
-def norm(s):
-    return (s or "").replace(" ", "").lower()
+def norm(s): return (s or "").replace(" ", "").lower()
 
 
 def prev_two_months(ref=None):
     ref = ref or datetime.date.today()
     out = []
-    for k in (2, 1):  # [더 이른 달, 더 최근 달]
+    for k in (2, 1):
         mm, yy = ref.month - k, ref.year
         while mm <= 0:
             mm += 12; yy -= 1
@@ -51,24 +131,21 @@ def g(item, *tags):
     return ""
 
 
-def fetch(url, ymd):
-    """한 달치 전체 페이지 수집. item dict 리스트 반환."""
+def fetch(url, ymd, lawd):
     rows, page = [], 1
     while True:
         qs = urllib.parse.urlencode({
-            "serviceKey": KEY, "LAWD_CD": LAWD_CD, "DEAL_YMD": ymd,
+            "serviceKey": KEY, "LAWD_CD": lawd, "DEAL_YMD": ymd,
             "pageNo": page, "numOfRows": 1000,
         })
         req = urllib.request.Request(f"{url}?{qs}", headers={"User-Agent": "molit-auto/1.0"})
         with urllib.request.urlopen(req, timeout=40) as r:
             raw = r.read().decode("utf-8", "replace")
         root = ET.fromstring(raw)
-
         code = root.findtext(".//resultCode") or root.findtext(".//returnReasonCode")
         if code and code not in ("00", "000"):
             msg = root.findtext(".//resultMsg") or root.findtext(".//returnAuthMsg") or raw[:200]
-            raise RuntimeError(f"API 오류({code}): {msg}")
-
+            raise RuntimeError(f"API 오류({code}) lawd={lawd} ymd={ymd}: {msg}")
         items = root.findall(".//item")
         if not items:
             break
@@ -82,15 +159,23 @@ def fetch(url, ymd):
     return rows
 
 
+def match_target(apt, umd):
+    apt_n = norm(apt)
+    for t in TARGETS:
+        dongs = t["dong"] if isinstance(t["dong"], list) else [t["dong"]]
+        if not any(d in (umd or "") for d in dongs):
+            continue
+        if any(norm(k) in apt_n for k in t["keys"]):
+            return t["id"]
+    return None
+
+
 def to_record(it, kind):
     apt = g(it, "aptNm", "아파트")
     umd = g(it, "umdNm", "법정동")
-    if umd and DONG not in umd and umd not in DONG:
+    if not apt:
         return None
-    tid = None
-    for t in TARGETS:
-        if any(norm(k) in norm(apt) for k in t["keys"]):
-            tid = t["id"]; break
+    tid = match_target(apt, umd)
     if not tid:
         return None
     try:
@@ -109,7 +194,7 @@ def to_record(it, kind):
         rec["amount"] = int((g(it, "dealAmount", "거래금액") or "0").replace(",", "") or 0)
     else:
         rent = int((g(it, "monthlyRent", "월세금액", "월세") or "0").replace(",", "") or 0)
-        if rent != 0:       # 전세만
+        if rent != 0:
             return None
         rec["amount"] = int((g(it, "deposit", "보증금액", "보증금") or "0").replace(",", "") or 0)
     return rec
@@ -118,30 +203,33 @@ def to_record(it, kind):
 def collect():
     months = prev_two_months()
     sales, jeonse = [], []
+    lawds = sorted({t["lawd"] for t in TARGETS})
     for ymd in months:
-        for it in fetch(TRADE_URL, ymd):
-            r = to_record(it, "sale")
-            if r: sales.append(r)
-        for it in fetch(RENT_URL, ymd):
-            r = to_record(it, "jeonse")
-            if r: jeonse.append(r)
+        for lawd in lawds:
+            for it in fetch(TRADE_URL, ymd, lawd):
+                r = to_record(it, "sale")
+                if r: sales.append(r)
+            for it in fetch(RENT_URL, ymd, lawd):
+                r = to_record(it, "jeonse")
+                if r: jeonse.append(r)
     return months, sales, jeonse
 
 
-def demo(months):
+def demo_rows(months):
+    """API 키 없이 동작 확인용 — 첫 4개 단지에만 가벼운 예시"""
     a, b = months
     S = lambda tid, ar, ym, dy, amt, fl: {"tid": tid, "ym": ym, "day": dy, "area": ar,
         "pyeong": round(ar / EFF / 3.3058), "floor": fl, "amount": amt}
     sales = [
-        S("rmadp", 84.97, a, "12", 425000, "14"), S("rmadp", 114.96, b, "08", 538000, "9"),
-        S("reelle", 84.91, b, "19", 408000, "15"),
-        S("dongbu", 121.74, a, "22", 460000, "7"),
-        S("ipark", 84.99, a, "16", 360000, "10"), S("ipark", 149.78, b, "27", 585000, "18"),
+        S("daechi-palace", 84.97, a, "12", 425000, "14"),
+        S("daechi-palace", 114.96, b, "08", 538000, "9"),
+        S("daechi-reelle", 84.91, b, "19", 408000, "15"),
+        S("daechi-dongbu", 121.74, a, "22", 460000, "7"),
+        S("daechi-ipark", 84.99, a, "16", 360000, "10"),
     ]
     jeonse = [
-        S("rmadp", 84.97, a, "18", 205000, "11"),
-        S("reelle", 59.93, b, "11", 150000, "5"),
-        S("ipark", 84.99, a, "29", 160000, "9"),
+        S("daechi-palace", 84.97, a, "18", 205000, "11"),
+        S("daechi-ipark", 84.99, a, "29", 160000, "9"),
     ]
     return sales, jeonse
 
@@ -151,7 +239,7 @@ def main():
     is_demo = not KEY
     if is_demo:
         print("MOLIT_KEY 없음 → 샘플 데이터 생성")
-        sales, jeonse = demo(months)
+        sales, jeonse = demo_rows(months)
     else:
         months, sales, jeonse = collect()
 
@@ -160,8 +248,14 @@ def main():
         rows.sort(key=lambda r: r["ym"] + r["day"], reverse=True)
         return [{k: v for k, v in r.items() if k != "tid"} for r in rows]
 
-    targets = [{"id": t["id"], "name": t["name"], "built": t["built"],
-                "sale": pack(t["id"], sales), "jeonse": pack(t["id"], jeonse)} for t in TARGETS]
+    targets = []
+    for t in TARGETS:
+        targets.append({
+            "id": t["id"], "name": t["name"], "loc": t["loc"],
+            "built": t["built"], "units": t["units"],
+            "sale": pack(t["id"], sales),
+            "jeonse": pack(t["id"], jeonse),
+        })
 
     kst = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)
     data = {
@@ -173,7 +267,7 @@ def main():
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
-    print(f"data.json 작성 완료 · 매매 {len(sales)}건 · 전세 {len(jeonse)}건 · {data['window']}")
+    print(f"data.json 작성 완료 · 단지 {len(TARGETS)}개 · 매매 {len(sales)}건 · 전세 {len(jeonse)}건 · {data['window']}")
 
 
 if __name__ == "__main__":
