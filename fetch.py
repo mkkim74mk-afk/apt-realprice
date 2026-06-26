@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 국토부 아파트 실거래(매매/전세) 자동 수집 → data.json
-직전 2개월(계약년월) · 강남구/송파구/강동구/서초구
+매월 12일: 직전2개월 전체 + 당월 1~12일 신고분
+매월 28일: 직전2개월 전체 + 당월 1~28일 신고분 → archive/YYYY-MM.json 에 전월 완성본 저장
 환경변수 MOLIT_KEY 에 공공데이터포털 '일반 인증키(Decoding)' 값을 넣어 실행.
 """
 import os, json, datetime, sys
@@ -112,15 +113,23 @@ RENT_URL  = "https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAp
 def norm(s): return (s or "").replace(" ", "").lower()
 
 
-def prev_two_months(ref=None):
+def calc_months(ref=None):
+    """
+    실행일 기준 수집 대상 월 목록 반환.
+    - 항상 직전 2개월(full) + 당월(partial, 당일까지 신고분)을 수집
+    - 반환: (months_list, run_day)
+      months_list = ["YYYYMM", "YYYYMM", "YYYYMM"]  # 직전2 + 당월
+    """
     ref = ref or datetime.date.today()
-    out = []
+    months = []
     for k in (2, 1):
         mm, yy = ref.month - k, ref.year
         while mm <= 0:
             mm += 12; yy -= 1
-        out.append(f"{yy}{mm:02d}")
-    return out
+        months.append(f"{yy}{mm:02d}")
+    # 당월 추가
+    months.append(f"{ref.year}{ref.month:02d}")
+    return months, ref.day
 
 
 def g(item, *tags):
@@ -150,10 +159,8 @@ def fetch(url, ymd, lawd):
         if not items:
             break
         rows.extend(items)
-        total = root.findtext(".//totalCount")
-        if total and page * 1000 >= int(total):
-            break
-        if len(items) < 1000:
+        total = int(root.findtext(".//totalCount") or 0)
+        if page * 1000 >= total:
             break
         page += 1
     return rows
@@ -185,10 +192,12 @@ def to_record(it, kind):
     y = g(it, "dealYear", "년"); m = g(it, "dealMonth", "월"); d = g(it, "dealDay", "일")
     if not (y and m and d):
         return None
+    apt_dong = (g(it, "aptDong") or "").strip()
     rec = {
         "tid": tid, "ym": f"{int(y)}{int(m):02d}", "day": f"{int(d):02d}",
         "area": round(area, 2), "pyeong": round(area / EFF / 3.3058) if area else 0,
         "floor": (g(it, "floor", "층") or "").strip(),
+        "apt_dong": apt_dong,
     }
     if kind == "sale":
         rec["amount"] = int((g(it, "dealAmount", "거래금액") or "0").replace(",", "") or 0)
@@ -197,11 +206,12 @@ def to_record(it, kind):
         if rent != 0:
             return None
         rec["amount"] = int((g(it, "deposit", "보증금액", "보증금") or "0").replace(",", "") or 0)
+        ct = g(it, "contractType", "계약구분") or ""
+        rec["renew"] = "갱신" if "갱신" in ct else "신규"
     return rec
 
 
-def collect():
-    months = prev_two_months()
+def collect(months):
     sales, jeonse = [], []
     lawds = sorted({t["lawd"] for t in TARGETS})
     for ymd in months:
@@ -212,37 +222,36 @@ def collect():
             for it in fetch(RENT_URL, ymd, lawd):
                 r = to_record(it, "jeonse")
                 if r: jeonse.append(r)
-    return months, sales, jeonse
+    return sales, jeonse
 
 
 def demo_rows(months):
-    """API 키 없이 동작 확인용 — 첫 4개 단지에만 가벼운 예시"""
-    a, b = months
-    S = lambda tid, ar, ym, dy, amt, fl: {"tid": tid, "ym": ym, "day": dy, "area": ar,
-        "pyeong": round(ar / EFF / 3.3058), "floor": fl, "amount": amt}
+    """API 키 없이 동작 확인용"""
+    a, b, c = months[0], months[1], months[2]
+    S = lambda tid, ar, ym, dy, amt, fl, ad="": {
+        "tid": tid, "ym": ym, "day": dy, "area": ar,
+        "pyeong": round(ar / EFF / 3.3058), "floor": fl, "amount": amt, "apt_dong": ad}
     sales = [
-        S("daechi-palace", 84.97, a, "12", 425000, "14"),
+        S("daechi-palace", 84.97, a, "12", 425000, "14", "101"),
         S("daechi-palace", 114.96, b, "08", 538000, "9"),
-        S("daechi-reelle", 84.91, b, "19", 408000, "15"),
+        S("daechi-palace", 84.97, c, "05", 430000, "7", "203"),
+        S("daechi-reelle", 84.91, b, "19", 408000, "15", "203"),
         S("daechi-dongbu", 121.74, a, "22", 460000, "7"),
-        S("daechi-ipark", 84.99, a, "16", 360000, "10"),
+        S("daechi-ipark", 84.99, a, "16", 360000, "10", "305"),
     ]
+    J = lambda tid, ar, ym, dy, amt, fl, ad="", rv="신규": {
+        "tid": tid, "ym": ym, "day": dy, "area": ar,
+        "pyeong": round(ar / EFF / 3.3058), "floor": fl, "amount": amt, "apt_dong": ad, "renew": rv}
     jeonse = [
-        S("daechi-palace", 84.97, a, "18", 205000, "11"),
-        S("daechi-ipark", 84.99, a, "29", 160000, "9"),
+        J("daechi-palace", 84.97, a, "18", 205000, "11", "101", "신규"),
+        J("daechi-ipark", 84.99, b, "29", 160000, "9", "", "갱신"),
+        J("daechi-reelle", 84.91, c, "03", 200000, "12", "", "신규"),
     ]
     return sales, jeonse
 
 
-def main():
-    months = prev_two_months()
-    is_demo = not KEY
-    if is_demo:
-        print("MOLIT_KEY 없음 → 샘플 데이터 생성")
-        sales, jeonse = demo_rows(months)
-    else:
-        months, sales, jeonse = collect()
-
+def build_targets(sales, jeonse):
+    """sales/jeonse 원시 레코드 → targets 리스트"""
     def pack(tid, arr):
         rows = [r for r in arr if r["tid"] == tid]
         rows.sort(key=lambda r: r["ym"] + r["day"], reverse=True)
@@ -256,18 +265,62 @@ def main():
             "sale": pack(t["id"], sales),
             "jeonse": pack(t["id"], jeonse),
         })
+    return targets
+
+
+def main():
+    ref = datetime.date.today()
+    months, run_day = calc_months(ref)
+    is_28 = (run_day == 28)   # 28일 실행 여부
+    is_demo = not KEY
+
+    if is_demo:
+        print("MOLIT_KEY 없음 → 샘플 데이터 생성")
+        sales, jeonse = demo_rows(months)
+    else:
+        sales, jeonse = collect(months)
 
     kst = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)
+
+    # ── 직전 2개월 표시 (당월은 "~MM/DD" 로 표기)
+    m_labels = [f"{m[:4]}.{m[4:]}" for m in months[:2]]
+    cur_label = f"{months[2][:4]}.{months[2][4:]} (~{ref.month}/{ref.day})"
+    window_str = f"{m_labels[0]} ~ {m_labels[1]} + {cur_label}"
+
+    # ── data.json (항상 갱신: 직전2개월 전체 + 당월 당일까지)
     data = {
         "generated": kst.strftime("%Y-%m-%d %H:%M KST"),
-        "window": f"{months[0][:4]}.{months[0][4:]} ~ {months[1][:4]}.{months[1][4:]}",
+        "window": window_str,
+        "run_day": run_day,
         "efficiency": EFF,
         "demo": is_demo,
-        "targets": targets,
+        "targets": build_targets(sales, jeonse),
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
-    print(f"data.json 작성 완료 · 단지 {len(TARGETS)}개 · 매매 {len(sales)}건 · 전세 {len(jeonse)}건 · {data['window']}")
+    print(f"data.json 갱신 완료 · {window_str}")
+
+    # ── 28일 실행: 전월 완성본을 archive/YYYY-MM.json 으로 저장
+    if is_28:
+        # 전월 = months[1] (직전 1개월 = 오늘 기준 바로 직전달)
+        prev_ym = months[1]   # e.g. "202605"
+        prev_label = f"{prev_ym[:4]}-{prev_ym[4:]}"   # "2026-05"
+
+        # 전월 데이터만 필터
+        prev_sales  = [r for r in sales  if r["ym"] == prev_ym]
+        prev_jeonse = [r for r in jeonse if r["ym"] == prev_ym]
+
+        archive_data = {
+            "generated": kst.strftime("%Y-%m-%d %H:%M KST"),
+            "month": prev_label,
+            "efficiency": EFF,
+            "targets": build_targets(prev_sales, prev_jeonse),
+        }
+        os.makedirs("archive", exist_ok=True)
+        arch_path = f"archive/{prev_label}.json"
+        with open(arch_path, "w", encoding="utf-8") as f:
+            json.dump(archive_data, f, ensure_ascii=False, indent=1)
+        print(f"archive 저장 완료 · {arch_path} ({len(prev_sales)}건 매매, {len(prev_jeonse)}건 전세)")
 
 
 if __name__ == "__main__":
