@@ -30,6 +30,7 @@ jobs:
         run: |
           git config user.name  "molit-bot"
           git config user.email "molit-bot@users.noreply.github.com"
-          git add data.json archive/
+          git add data.json
+          git add archive/ 2>/dev/null || true
           git commit -m "auto update $(date -u +%Y-%m-%d)" || echo "변경 없음"
           git push
