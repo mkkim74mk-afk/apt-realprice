@@ -211,10 +211,16 @@ function rowsHtml(rows, kind, color){
   return head + body;
 }
 
+// units 없는 단지 보정표
+const UNITS_FALLBACK={
+  'daechi-palace':1608,'daechi-reelle':428,
+  'daechi-dongbu':476,'daechi-ipark':252,'banpo-reelle':229
+};
 function infoLine(c){
   const parts=[c.loc||''];
   if(c.built) parts.push(c.built+'년 준공');
-  if(c.units) parts.push(c.units.toLocaleString()+'세대');
+  const u = c.units ?? UNITS_FALLBACK[c.id];
+  if(u) parts.push(u.toLocaleString()+'세대');
   return parts.filter(Boolean).join(' · ');
 }
 
@@ -340,33 +346,36 @@ async function buildArchiveChips(){
   const chips=document.getElementById('archChips');
   chips.innerHTML='';
 
-  // 라이브 칩
+  // 아카이브 칩: 병렬로 존재 여부 확인 (타임아웃 3초)
+  const probe = ym => {
+    const ctrl = new AbortController();
+    const tid = setTimeout(()=>ctrl.abort(), 3000);
+    return fetch(`./archive/${ym}.json`, {signal:ctrl.signal, cache:'no-store'})
+      .then(r=>{ clearTimeout(tid); return r.ok ? ym : null; })
+      .catch(()=>null);
+  };
+  const found = (await Promise.all(ARCH_MONTHS.map(probe))).filter(Boolean);
+
+  if(found.length === 0){
+    // 아카이브 없으면 바 전체 숨김 + 안내
+    document.querySelector('.arch-bar').style.display='none';
+    return;
+  }
+
+  // 아카이브가 하나라도 있을 때만 "최신" 칩 표시
   const liveEl=document.createElement('button');
   liveEl.className='arch-chip live active';
   liveEl.textContent='최신';
   liveEl.onclick=()=>selectLive();
   chips.appendChild(liveEl);
 
-  // 아카이브 칩: 순차적으로 GET 시도, 404면 skip
-  for(const ym of ARCH_MONTHS){
-    try{
-      const r=await fetch(`./archive/${ym}.json`,{method:'GET',cache:'no-store'});
-      if(!r.ok) continue;
-      // 파일 존재 확인됨 → 칩 추가
-      const el=document.createElement('button');
-      el.className='arch-chip';
-      el.textContent=ym;
-      el.onclick=()=>selectArchive(ym,el);
-      chips.appendChild(el);
-    }catch{continue;}
-  }
-  // 아카이브 없으면 안내
-  if(chips.children.length===1){
-    const sp=document.createElement('span');
-    sp.style.cssText='font-size:11px;color:var(--inksoft)';
-    sp.textContent='(28일 이후 저장됩니다)';
-    chips.appendChild(sp);
-  }
+  found.forEach(ym=>{
+    const el=document.createElement('button');
+    el.className='arch-chip';
+    el.textContent=ym;
+    el.onclick=()=>selectArchive(ym,el);
+    chips.appendChild(el);
+  });
 }
 
 /* ── 초기 로드 ── */
