@@ -16,10 +16,10 @@ EFF = 0.74  # 전용률 가정(평형 추정)
 # (id, name, keys[], lawd_cd, dong(str|list), built, units, loc)
 TARGETS = [
     # ───────── 강남구 대치동 (11680) ─────────
-    {"id":"daechi-palace","name":"래미안대치팰리스","keys":["래미안대치팰리스"],"lawd":"11680","dong":"대치동","built":"2015","units":None,"loc":"강남구 대치동"},
-    {"id":"daechi-reelle","name":"대치르엘","keys":["대치르엘"],"lawd":"11680","dong":"대치동","built":"2023","units":None,"loc":"강남구 대치동"},
-    {"id":"daechi-dongbu","name":"동부센트레빌","keys":["동부센트레빌"],"lawd":"11680","dong":"대치동","built":"2005","units":None,"loc":"강남구 대치동"},
-    {"id":"daechi-ipark","name":"대치아이파크","keys":["대치아이파크"],"lawd":"11680","dong":"대치동","built":"2008","units":None,"loc":"강남구 대치동"},
+    {"id":"daechi-palace","name":"래미안대치팰리스","keys":["래미안대치팰리스"],"lawd":"11680","dong":"대치동","built":"2015","units":1608,"loc":"강남구 대치동"},
+    {"id":"daechi-reelle","name":"대치르엘","keys":["대치르엘"],"lawd":"11680","dong":"대치동","built":"2023","units":428,"loc":"강남구 대치동"},
+    {"id":"daechi-dongbu","name":"동부센트레빌","keys":["동부센트레빌"],"lawd":"11680","dong":"대치동","built":"2005","units":476,"loc":"강남구 대치동"},
+    {"id":"daechi-ipark","name":"대치아이파크","keys":["대치아이파크"],"lawd":"11680","dong":"대치동","built":"2008","units":252,"loc":"강남구 대치동"},
     {"id":"daechi-skview","name":"대치SK뷰","keys":["대치SK뷰","대치에스케이뷰"],"lawd":"11680","dong":"대치동","built":"2017","units":239,"loc":"강남구 대치동"},
     {"id":"daechi-samsung1","name":"대치삼성1차","keys":["대치삼성1"],"lawd":"11680","dong":"대치동","built":"2000","units":960,"loc":"강남구 대치동"},
     {"id":"daechi-hyundai","name":"대치현대","keys":["대치현대"],"lawd":"11680","dong":"대치동","built":"1999","units":630,"loc":"강남구 대치동"},
@@ -103,7 +103,7 @@ TARGETS = [
     {"id":"shinbanpo4","name":"신반포4차","keys":["신반포4"],"lawd":"11650","dong":"잠원동","built":"1979","units":1212,"loc":"서초구 잠원동"},
     {"id":"shinbanpo-zai","name":"신반포자이","keys":["신반포자이"],"lawd":"11650","dong":"잠원동","built":"2018","units":607,"loc":"서초구 잠원동"},
     {"id":"maple-zai","name":"메이플자이","keys":["메이플자이"],"lawd":"11650","dong":"잠원동","built":"2025","units":3307,"loc":"서초구 잠원동"},
-    {"id":"banpo-reelle","name":"반포르엘","keys":["반포르엘"],"lawd":"11650","dong":"잠원동","built":"2022","units":None,"loc":"서초구 잠원동"},
+    {"id":"banpo-reelle","name":"반포르엘","keys":["반포르엘"],"lawd":"11650","dong":"잠원동","built":"2022","units":229,"loc":"서초구 잠원동"},
 ]
 
 TRADE_URL = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade"
