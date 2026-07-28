@@ -1,0 +1,7015 @@
+{
+ "generated": "2026-07-28 10:46 KST",
+ "month": "2026-06",
+ "efficiency": 0.74,
+ "targets": [
+  {
+   "id": "daechi-palace",
+   "name": "래미안대치팰리스",
+   "loc": "강남구 대치동",
+   "built": "2015",
+   "units": 1608,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 94.49,
+     "pyeong": 39,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 475000
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 91.89,
+     "pyeong": 38,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 445000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 440000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 114.15,
+     "pyeong": 47,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 280000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 94.51,
+     "pyeong": 39,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 114.14,
+     "pyeong": 47,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 300000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 94.5,
+     "pyeong": 39,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 183750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 94.49,
+     "pyeong": 39,
+     "floor": "35",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "daechi-reelle",
+   "name": "대치르엘",
+   "loc": "강남구 대치동",
+   "built": "2023",
+   "units": 428,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 60.0,
+     "pyeong": 25,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 280000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 84.77,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "daechi-dongbu",
+   "name": "동부센트레빌",
+   "loc": "강남구 대치동",
+   "built": "2005",
+   "units": 476,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 145.83,
+     "pyeong": 60,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 590000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 145.83,
+     "pyeong": 60,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 540000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 161.47,
+     "pyeong": 66,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 340000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 121.74,
+     "pyeong": 50,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 240000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 121.74,
+     "pyeong": 50,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 250000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 145.83,
+     "pyeong": 60,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 310000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "daechi-ipark",
+   "name": "대치아이파크",
+   "loc": "강남구 대치동",
+   "built": "2008",
+   "units": 252,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 178500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 114.97,
+     "pyeong": 47,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 225000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 121250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 119.58,
+     "pyeong": 49,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 215000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "daechi-skview",
+   "name": "대치SK뷰",
+   "loc": "강남구 대치동",
+   "built": "2017",
+   "units": 239,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "daechi-samsung1",
+   "name": "대치삼성1차",
+   "loc": "강남구 대치동",
+   "built": "2000",
+   "units": 960,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "daechi-hyundai",
+   "name": "대치현대",
+   "loc": "강남구 대치동",
+   "built": "1999",
+   "units": 630,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 59.82,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 242000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.82,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 73000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 59.82,
+     "pyeong": 24,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 74000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 114.59,
+     "pyeong": 47,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 114.59,
+     "pyeong": 47,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 59.82,
+     "pyeong": 24,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 74000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "daechi-pugio-summit",
+   "name": "대치푸르지오써밋",
+   "loc": "강남구 대치동",
+   "built": "2023",
+   "units": 489,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 102.33,
+     "pyeong": 42,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 230000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 131200,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "daechi-hi-stern",
+   "name": "래미안대치하이스턴",
+   "loc": "강남구 대치동",
+   "built": "2014",
+   "units": 354,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 110.39,
+     "pyeong": 45,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 110.39,
+     "pyeong": 45,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "daechi-eunma",
+   "name": "은마",
+   "loc": "강남구 대치동",
+   "built": "1979",
+   "units": 4424,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 393000
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 337000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 345000
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 348000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 377000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 78000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 40000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 70350,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 82500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 87000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 73000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 69000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 67200,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 67200,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "gaepo-wooseong",
+   "name": "개포우성1·2차",
+   "loc": "강남구 대치/개포동",
+   "built": "1983",
+   "units": 1140,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 127.78,
+     "pyeong": 52,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 500000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 159.6,
+     "pyeong": 65,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 620000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 159.6,
+     "pyeong": 65,
+     "floor": "8",
+     "apt_dong": "14",
+     "amount": 610000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 189.98,
+     "pyeong": 78,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 127.61,
+     "pyeong": 52,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 159.6,
+     "pyeong": 65,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 225000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "seonkyung",
+   "name": "선경1·2차",
+   "loc": "강남구 대치동",
+   "built": "1983",
+   "units": 1034,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 136.68,
+     "pyeong": 56,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 507000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 163.92,
+     "pyeong": 67,
+     "floor": "9",
+     "apt_dong": "2",
+     "amount": 600000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 136.68,
+     "pyeong": 56,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.35,
+     "pyeong": 34,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "mido",
+   "name": "한보미도맨션1·2차",
+   "loc": "강남구 대치동",
+   "built": "1983",
+   "units": 2436,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 404000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 89000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 126.33,
+     "pyeong": 52,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 126.33,
+     "pyeong": 52,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 99750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 100000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 128.01,
+     "pyeong": 52,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 134000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 99750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "dogok-rexle",
+   "name": "도곡렉슬",
+   "loc": "강남구 도곡동",
+   "built": "2006",
+   "units": 3002,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 377500
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 120.82,
+     "pyeong": 49,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 450000
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 269000
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 290000
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 418000
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 415000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 413000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 364000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 114.99,
+     "pyeong": 47,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 391500
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 340000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 114.99,
+     "pyeong": 47,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 138.32,
+     "pyeong": 57,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 240000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 152000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 114.99,
+     "pyeong": 47,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 185000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 114.99,
+     "pyeong": 47,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 189000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.92,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 163000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 98500,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 120.82,
+     "pyeong": 49,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 216000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 114.99,
+     "pyeong": 47,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 192000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "tower-palace2",
+   "name": "타워팰리스2차",
+   "loc": "강남구 도곡동",
+   "built": "2003",
+   "units": 813,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 115.63,
+     "pyeong": 47,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 365000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 124.11,
+     "pyeong": 51,
+     "floor": "39",
+     "apt_dong": "",
+     "amount": 189000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 164.13,
+     "pyeong": 67,
+     "floor": "44",
+     "apt_dong": "",
+     "amount": 290000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "gn-central-ipark",
+   "name": "강남센트럴아이파크",
+   "loc": "강남구 역삼동",
+   "built": "2022",
+   "units": 499,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.95,
+     "pyeong": 25,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 292000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 115.22,
+     "pyeong": 47,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 430000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 116.0,
+     "pyeong": 47,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 84.92,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 155.14,
+     "pyeong": 63,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 273000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "yeoksam-rmian",
+   "name": "역삼래미안",
+   "loc": "강남구 역삼동",
+   "built": "2005",
+   "units": 1050,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 80.87,
+     "pyeong": 33,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 120750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 80.87,
+     "pyeong": 33,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 59.4,
+     "pyeong": 24,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 59.4,
+     "pyeong": 24,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 59.53,
+     "pyeong": 24,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 59.73,
+     "pyeong": 24,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 80.87,
+     "pyeong": 33,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.53,
+     "pyeong": 24,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 80.87,
+     "pyeong": 33,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.4,
+     "pyeong": 24,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 112000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "rmian-graytun3",
+   "name": "래미안그레이튼3차",
+   "loc": "강남구 역삼동",
+   "built": "2009",
+   "units": 476,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "yeoksam-zai",
+   "name": "역삼자이",
+   "loc": "강남구 역삼동",
+   "built": "2016",
+   "units": 408,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 60.0,
+     "pyeong": 25,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 136500,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "gaenari-skview",
+   "name": "개나리SK뷰",
+   "loc": "강남구 역삼동",
+   "built": "2012",
+   "units": 240,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "dh-firstier",
+   "name": "디에이치퍼스티어아이파크",
+   "loc": "강남구 개포동",
+   "built": "2023",
+   "units": 6702,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "rmian-blestige",
+   "name": "래미안블레스티지",
+   "loc": "강남구 개포동",
+   "built": "2019",
+   "units": 1957,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 99.97,
+     "pyeong": 41,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 392000
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 99.97,
+     "pyeong": 41,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 392000
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "212",
+     "amount": 312600
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 99.99,
+     "pyeong": 41,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 350000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 113.81,
+     "pyeong": 47,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 360000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 113.73,
+     "pyeong": 46,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 145000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 126.93,
+     "pyeong": 52,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 230000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 99.99,
+     "pyeong": 41,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 99.98,
+     "pyeong": 41,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 99.97,
+     "pyeong": 41,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 163500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 118000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "gaepo-rmian-forest",
+   "name": "개포래미안포레스트",
+   "loc": "강남구 개포동",
+   "built": "2020",
+   "units": 2296,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 320000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 319000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 112.97,
+     "pyeong": 46,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 400000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 325000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.92,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 270000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 320000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 59.92,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 273000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 59.92,
+     "pyeong": 24,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 113000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 136.06,
+     "pyeong": 56,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 240000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 74.66,
+     "pyeong": 31,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 102.41,
+     "pyeong": 42,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.92,
+     "pyeong": 24,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 99000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.92,
+     "pyeong": 24,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 99000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 102.32,
+     "pyeong": 42,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 49.92,
+     "pyeong": 20,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 104000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 74.66,
+     "pyeong": 31,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 127000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 142000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "dh-honor-hills",
+   "name": "디에이치아너힐스",
+   "loc": "강남구 개포동",
+   "built": "2019",
+   "units": 1320,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "gaepo-zai-pres",
+   "name": "개포자이프레지던스",
+   "loc": "강남구 개포동",
+   "built": "2023",
+   "units": 3375,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 49.95,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 274000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 401000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 45.88,
+     "pyeong": 19,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 248000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 371000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 348000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 372000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 102.76,
+     "pyeong": 42,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 430000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 78.77,
+     "pyeong": 32,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 350000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 102.76,
+     "pyeong": 42,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 132.82,
+     "pyeong": 54,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 280000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 155400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "dh-zai-gaepo",
+   "name": "디에이치자이개포",
+   "loc": "강남구 일원동",
+   "built": "2021",
+   "units": 1996,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 103.86,
+     "pyeong": 42,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 432000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 76.6,
+     "pyeong": 31,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 136500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 156000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 76.46,
+     "pyeong": 31,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 149000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 63.76,
+     "pyeong": 26,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 76.46,
+     "pyeong": 31,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.81,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 76.46,
+     "pyeong": 31,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 160500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 84.66,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "rmian-lucheheim",
+   "name": "래미안개포루체하임",
+   "loc": "강남구 일원동",
+   "built": "2018",
+   "units": 850,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 101.97,
+     "pyeong": 42,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 59.99,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 101.99,
+     "pyeong": 42,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 121.71,
+     "pyeong": 50,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "mokryun-town",
+   "name": "목련타운",
+   "loc": "강남구 일원동",
+   "built": "1993",
+   "units": 650,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 99.79,
+     "pyeong": 41,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 99.79,
+     "pyeong": 41,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 134.71,
+     "pyeong": 55,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 99.79,
+     "pyeong": 41,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "pureun-village",
+   "name": "푸른마을",
+   "loc": "강남구 일원동",
+   "built": "1994",
+   "units": 930,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.76,
+     "pyeong": 24,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 230000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 87000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 59.76,
+     "pyeong": 24,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 76500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 59.76,
+     "pyeong": 24,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 50700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 59.76,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 71400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 59.76,
+     "pyeong": 24,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "saemter-village",
+   "name": "샘터마을",
+   "loc": "강남구 일원동",
+   "built": "1993",
+   "units": 628,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 115.37,
+     "pyeong": 47,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 308000
+    }
+   ],
+   "jeonse": []
+  },
+  {
+   "id": "kkachi-village",
+   "name": "까치마을",
+   "loc": "강남구 수서동",
+   "built": "1993",
+   "units": 1404,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 161500
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 158000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 145000
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 201500
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 153500
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 169000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 32500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 42000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 40000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 43000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 49300,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 31200,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 34650,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 30000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 36000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 60000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 60000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "suseo-samik",
+   "name": "삼익",
+   "loc": "강남구 수서동",
+   "built": "1992",
+   "units": 645,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 49.2,
+     "pyeong": 20,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 206000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 70300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 49.2,
+     "pyeong": 20,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 55000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 49.2,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 58000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 60.0,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 57700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 49.2,
+     "pyeong": 20,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 55000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "07",
+     "area": 60.0,
+     "pyeong": 25,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 60.0,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "suseo-shindonga",
+   "name": "신동아",
+   "loc": "강남구 수서동",
+   "built": "1992",
+   "units": 1162,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 159500
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 183500
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 183500
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 161000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 49.96,
+     "pyeong": 20,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 44290,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 45000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 52000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 42000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 30600,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 39900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 40000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 30600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 49.96,
+     "pyeong": 20,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 42000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 42000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 39900,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 49.96,
+     "pyeong": 20,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 53000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 49.96,
+     "pyeong": 20,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 34120,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "suseo-haarum",
+   "name": "수서한아름",
+   "loc": "강남구 수서동",
+   "built": "1993",
+   "units": 498,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "ss-central-ipark",
+   "name": "삼성동센트럴아이파크",
+   "loc": "강남구 삼성동",
+   "built": "2018",
+   "units": 416,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 388000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 413000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 103.32,
+     "pyeong": 42,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 103.32,
+     "pyeong": 42,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 210000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 159000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 129000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "rmian-la-classy",
+   "name": "래미안라클래시",
+   "loc": "강남구 삼성동",
+   "built": "2021",
+   "units": 679,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 71.95,
+     "pyeong": 29,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 362000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 71.99,
+     "pyeong": 29,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 101.98,
+     "pyeong": 42,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 260000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 71.9,
+     "pyeong": 29,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 71.95,
+     "pyeong": 29,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "acro-samsung",
+   "name": "아크로삼성",
+   "loc": "강남구 삼성동",
+   "built": "2025",
+   "units": 419,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 92.0,
+     "pyeong": 38,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 240000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 92.0,
+     "pyeong": 38,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 250000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "ss-hillstate1",
+   "name": "삼성동힐스테이트1단지",
+   "loc": "강남구 삼성동",
+   "built": "2008",
+   "units": 1144,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 31.4,
+     "pyeong": 13,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 173000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 360000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 270000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 31.4,
+     "pyeong": 13,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 60000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 120750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.5,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "chungdam-zai",
+   "name": "청담자이",
+   "loc": "강남구 청담동",
+   "built": "2011",
+   "units": 708,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 89.11,
+     "pyeong": 36,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 505000
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 49.64,
+     "pyeong": 20,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 248500
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 82.36,
+     "pyeong": 34,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 82.36,
+     "pyeong": 34,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 49.62,
+     "pyeong": 20,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "chungdam-reelle",
+   "name": "청담르엘",
+   "loc": "강남구 청담동",
+   "built": "2025",
+   "units": 1261,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "ap-misung1",
+   "name": "미성1차",
+   "loc": "강남구 압구정동",
+   "built": "1982",
+   "units": 322,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "ap-misung2",
+   "name": "미성2차",
+   "loc": "강남구 압구정동",
+   "built": "1987",
+   "units": 911,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 118.63,
+     "pyeong": 48,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 515000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 118.63,
+     "pyeong": 48,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 147000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 118.63,
+     "pyeong": 48,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 128000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 74.4,
+     "pyeong": 30,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 86000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 74.4,
+     "pyeong": 30,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 74.4,
+     "pyeong": 30,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "ap-shinhyundae",
+   "name": "신현대 9·11·12차",
+   "loc": "강남구 압구정동",
+   "built": "1982",
+   "units": 1924,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 107.16,
+     "pyeong": 44,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 580000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 112.05,
+     "pyeong": 46,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 600000
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 111.38,
+     "pyeong": 46,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 662500
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 183.41,
+     "pyeong": 75,
+     "floor": "4",
+     "apt_dong": "127",
+     "amount": 940000
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 112.05,
+     "pyeong": 46,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 599000
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 108.31,
+     "pyeong": 44,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 610000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 108.88,
+     "pyeong": 45,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 610000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 183.41,
+     "pyeong": 75,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 920000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 109.24,
+     "pyeong": 45,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 115.23,
+     "pyeong": 47,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 91000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 183.41,
+     "pyeong": 75,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 210000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 155.52,
+     "pyeong": 64,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "ap-hyundae67",
+   "name": "현대 6·7차",
+   "loc": "강남구 압구정동",
+   "built": "1978",
+   "units": 1288,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 157.36,
+     "pyeong": 64,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 792000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 243.23,
+     "pyeong": 99,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 331000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 144.7,
+     "pyeong": 59,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 144.7,
+     "pyeong": 59,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 187000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 157.36,
+     "pyeong": 64,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 185000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 157.36,
+     "pyeong": 64,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 144.2,
+     "pyeong": 59,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 157.36,
+     "pyeong": 64,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "ap-yd-hanyang1",
+   "name": "영동한양1차",
+   "loc": "강남구 압구정동",
+   "built": "1977",
+   "units": 936,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "ap-hanyang5",
+   "name": "한양5차",
+   "loc": "강남구 압구정동",
+   "built": "1979",
+   "units": 343,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "helio-city",
+   "name": "헬리오시티",
+   "loc": "송파구 가락동",
+   "built": "2018",
+   "units": 9510,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 110.66,
+     "pyeong": 45,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 335000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 308000
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 289500
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 49.21,
+     "pyeong": 20,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 225500
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 279000
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 285000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 49.21,
+     "pyeong": 20,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 241000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 260000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 110.44,
+     "pyeong": 45,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 138600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 121800,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 115500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 95000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 103000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 39.1,
+     "pyeong": 16,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 78000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 110.44,
+     "pyeong": 45,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 39.1,
+     "pyeong": 16,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 82000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 114000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 110.66,
+     "pyeong": 45,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 110.44,
+     "pyeong": 45,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 144900,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 112300,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 39.1,
+     "pyeong": 16,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 113400,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 133000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 117600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 108000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 39.12,
+     "pyeong": 16,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 64000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 107000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 39.17,
+     "pyeong": 16,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 60300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 150.09,
+     "pyeong": 61,
+     "floor": "35",
+     "apt_dong": "",
+     "amount": 250000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "07",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 100000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 113400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 39.1,
+     "pyeong": 16,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 108150,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 39.1,
+     "pyeong": 16,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 66100,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 110.66,
+     "pyeong": 45,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 142800,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "park-rio",
+   "name": "파크리오",
+   "loc": "송파구 신천동",
+   "built": "2008",
+   "units": 6864,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 298500
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 295000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 35.24,
+     "pyeong": 14,
+     "floor": "5",
+     "apt_dong": "101",
+     "amount": 110000
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.64,
+     "pyeong": 24,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 267000
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 300000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 339000
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 339000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 293000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 296000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 123000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 121.63,
+     "pyeong": 50,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 100800,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 101850,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 59.95,
+     "pyeong": 25,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 59.95,
+     "pyeong": 25,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 77000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 121.63,
+     "pyeong": 50,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 115100,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 59.64,
+     "pyeong": 24,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 98000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 99700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 102900,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 141700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "07",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.86,
+     "pyeong": 24,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 92400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 107100,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 127000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.86,
+     "pyeong": 24,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 88000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "jamsil-reelle",
+   "name": "잠실르엘",
+   "loc": "송파구 신천동",
+   "built": "2026",
+   "units": 1865,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "jamsil-rmian-ipark",
+   "name": "잠실래미안아이파크",
+   "loc": "송파구 신천동",
+   "built": "2026",
+   "units": 2678,
+   "sale": [],
+   "jeonse": []
+  },
+  {
+   "id": "jamsil-els",
+   "name": "잠실엘스",
+   "loc": "송파구 잠실동",
+   "built": "2008",
+   "units": 5678,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 300000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 345000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 330000
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 350000
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 84.88,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 338000
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 300000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "148",
+     "amount": 322000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 113000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 119.93,
+     "pyeong": 49,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 173250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 127000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 133000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.88,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.88,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 132000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 104000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 112350,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 120700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 120500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 99000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 136000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 108000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 106000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 136000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 148000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 111000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.88,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 137000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 109000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 104000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "trizium",
+   "name": "트리지움",
+   "loc": "송파구 잠실동",
+   "built": "2008",
+   "units": 3696,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 320000
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 314000
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 310000
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 301000
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 317000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 132300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 123900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 123900,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 122000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 99500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 129150,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "rissents",
+   "name": "리센츠",
+   "loc": "송파구 잠실동",
+   "built": "2008",
+   "units": 5563,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 59.99,
+     "pyeong": 25,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 304000
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 337000
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 173000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 156000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 449000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 156000
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 339500
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 349000
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 98.55,
+     "pyeong": 40,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 380000
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 150000
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 360000
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 354000
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 150000
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 357000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 333500
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 359000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 98.55,
+     "pyeong": 40,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 360000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 330000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 140000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 136500,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 98.55,
+     "pyeong": 40,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 205000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 183750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 93000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "08",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 93000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 197000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 151000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "olympic-foreon",
+   "name": "올림픽파크포레온",
+   "loc": "강동구 둔촌동",
+   "built": "2024",
+   "units": 12032,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 313000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 39.95,
+     "pyeong": 16,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 179000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.99,
+     "pyeong": 25,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 250000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 109.98,
+     "pyeong": 45,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 336000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 39.98,
+     "pyeong": 16,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 82000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 142000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 103900,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 99700,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 49.95,
+     "pyeong": 20,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 39.95,
+     "pyeong": 16,
+     "floor": "33",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "theshop-doonchon",
+   "name": "더샵둔촌포레",
+   "loc": "강동구 둔촌동",
+   "built": "2024",
+   "units": 572,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 95.24,
+     "pyeong": 39,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 174000
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 93.54,
+     "pyeong": 38,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 188000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 93.54,
+     "pyeong": 38,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 95000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 93.54,
+     "pyeong": 38,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 96000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "doonchon-pugio",
+   "name": "둔촌푸르지오",
+   "loc": "강동구 둔촌동",
+   "built": "2010",
+   "units": 800,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 149000
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 163000
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 149500
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 84.92,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 64780,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 77000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 57750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "godeok-grasium",
+   "name": "고덕그라시움",
+   "loc": "강동구 고덕동",
+   "built": "2019",
+   "units": 4932,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.05,
+     "pyeong": 34,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 254500
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 250000
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 225000
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 211000
+    },
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 193000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 220000
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 220000
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 241000
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 204000
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 213000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 64575,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 64575,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.3,
+     "pyeong": 34,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 75600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.05,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 62000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.05,
+     "pyeong": 34,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 111000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 72975,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 59.05,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 59.03,
+     "pyeong": 24,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 68250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 84.3,
+     "pyeong": 34,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 78700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 66000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 97.78,
+     "pyeong": 40,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 100000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.05,
+     "pyeong": 34,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 88000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 83000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 87000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 62000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "godeok-central-pugio",
+   "name": "고덕센트럴푸르지오",
+   "loc": "강동구 고덕동",
+   "built": "2020",
+   "units": 656,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.14,
+     "pyeong": 24,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.06,
+     "pyeong": 24,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.06,
+     "pyeong": 24,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.14,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 59.14,
+     "pyeong": 24,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 78000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.09,
+     "pyeong": 24,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 78000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 59.09,
+     "pyeong": 24,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 79000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "rmian-onebailey",
+   "name": "래미안원베일리",
+   "loc": "서초구 반포동",
+   "built": "2023",
+   "units": 2990,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 563000
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 460000
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 168.87,
+     "pyeong": 69,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 1220000
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 168.93,
+     "pyeong": 69,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 1300000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 133.95,
+     "pyeong": 55,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 395000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 116.92,
+     "pyeong": 48,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 340000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 230000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 168.95,
+     "pyeong": 69,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 525000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 133.95,
+     "pyeong": 55,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 380000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 116.93,
+     "pyeong": 48,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 290000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 116.93,
+     "pyeong": 48,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 290000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 169000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 210000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "acro-riverpark",
+   "name": "아크로리버파크",
+   "loc": "서초구 반포동",
+   "built": "2016",
+   "units": 1612,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 178.94,
+     "pyeong": 73,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 980000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 136500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 173250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 129.92,
+     "pyeong": 53,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 320000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 79012,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 142800,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 129.97,
+     "pyeong": 53,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 285000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 134000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 79012,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "rmian-furstige",
+   "name": "래미안퍼스티지",
+   "loc": "서초구 반포동",
+   "built": "2009",
+   "units": 2444,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 545000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 222.76,
+     "pyeong": 91,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 800000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 88200,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 138600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 88200,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 169.31,
+     "pyeong": 69,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 315000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 172000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "04",
+     "area": 135.92,
+     "pyeong": 56,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 308000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 84.85,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 164000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "02",
+     "area": 222.76,
+     "pyeong": 91,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 330750,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "banpo-zai",
+   "name": "반포자이",
+   "loc": "서초구 반포동",
+   "built": "2009",
+   "units": 3410,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 132.44,
+     "pyeong": 54,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 615000
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 132.44,
+     "pyeong": 54,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 580000
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 360000
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 244.54,
+     "pyeong": 100,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 760000
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 194.51,
+     "pyeong": 80,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 698000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 194.51,
+     "pyeong": 80,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 310000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 244.54,
+     "pyeong": 100,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 420000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 151000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 244.54,
+     "pyeong": 100,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 370000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 73368,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 52949,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 73368,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "shinbanpo4",
+   "name": "신반포4차",
+   "loc": "서초구 잠원동",
+   "built": "1979",
+   "units": 1212,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 100.11,
+     "pyeong": 41,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 445000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 96.78,
+     "pyeong": 40,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 83000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 100.11,
+     "pyeong": 41,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 89250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 96.48,
+     "pyeong": 39,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "shinbanpo-zai",
+   "name": "신반포자이",
+   "loc": "서초구 잠원동",
+   "built": "2018",
+   "units": 607,
+   "sale": [],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 84.87,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 185000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 84.87,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "10",
+     "area": 59.93,
+     "pyeong": 24,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "갱신"
+    }
+   ]
+  },
+  {
+   "id": "maple-zai",
+   "name": "메이플자이",
+   "loc": "서초구 잠원동",
+   "built": "2025",
+   "units": 3307,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 84.25,
+     "pyeong": 34,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 530000
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 84.85,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 470000
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.54,
+     "pyeong": 24,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 423000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.85,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 500000
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 84.85,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 455000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.85,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 495000
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 59.17,
+     "pyeong": 24,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 405000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.25,
+     "pyeong": 34,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 99.29,
+     "pyeong": 41,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 84.25,
+     "pyeong": 34,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 210000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 124.42,
+     "pyeong": 51,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 325000,
+     "renew": "신규"
+    }
+   ]
+  },
+  {
+   "id": "banpo-reelle",
+   "name": "반포르엘",
+   "loc": "서초구 잠원동",
+   "built": "2022",
+   "units": 229,
+   "sale": [
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 121.61,
+     "pyeong": 50,
+     "floor": "34",
+     "apt_dong": "",
+     "amount": 690000
+    }
+   ],
+   "jeonse": [
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 97.47,
+     "pyeong": 40,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.13,
+     "pyeong": 34,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.35,
+     "pyeong": 34,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 97.47,
+     "pyeong": 40,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 167580,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 107.97,
+     "pyeong": 44,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "03",
+     "area": 84.11,
+     "pyeong": 34,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 185000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "01",
+     "area": 84.11,
+     "pyeong": 34,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 162700,
+     "renew": "갱신"
+    }
+   ]
+  }
+ ]
+}

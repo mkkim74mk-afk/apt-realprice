@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-12 16:51 KST",
- "window": "2026.05 ~ 2026.06 + 2026.07 (~7/12)",
- "run_day": 12,
+ "generated": "2026-07-28 10:46 KST",
+ "window": "2026.05 ~ 2026.06 + 2026.07 (~7/28)",
+ "run_day": 28,
  "efficiency": 0.74,
  "demo": false,
  "targets": [
@@ -12,6 +12,24 @@
    "built": "2015",
    "units": 1608,
    "sale": [
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 93.18,
+     "pyeong": 38,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 470000
+    },
+    {
+     "ym": "202606",
+     "day": "17",
+     "area": 94.49,
+     "pyeong": 39,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 475000
+    },
     {
      "ym": "202606",
      "day": "16",
@@ -45,7 +63,7 @@
      "area": 114.17,
      "pyeong": 47,
      "floor": "18",
-     "apt_dong": "",
+     "apt_dong": "109",
      "amount": 637500
     },
     {
@@ -97,6 +115,16 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "11",
+     "area": 94.49,
+     "pyeong": 39,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 194250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "09",
      "area": 84.97,
      "pyeong": 35,
@@ -138,6 +166,16 @@
     {
      "ym": "202606",
      "day": "27",
+     "area": 94.51,
+     "pyeong": 39,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 220000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
      "area": 114.14,
      "pyeong": 47,
      "floor": "27",
@@ -171,6 +209,16 @@
      "area": 94.49,
      "pyeong": 39,
      "floor": "35",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
+     "day": "26",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "12",
      "apt_dong": "",
      "amount": 200000,
      "renew": "신규"
@@ -429,6 +477,36 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "23",
+     "area": 114.97,
+     "pyeong": 47,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 210000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 149.78,
+     "pyeong": 61,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 258000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 149.78,
+     "pyeong": 61,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 250000,
+     "renew": "신규"
+    },
+    {
      "ym": "202606",
      "day": "26",
      "area": 84.98,
@@ -566,6 +644,15 @@
    "units": 630,
    "sale": [
     {
+     "ym": "202607",
+     "day": "02",
+     "area": 59.82,
+     "pyeong": 24,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 254000
+    },
+    {
      "ym": "202606",
      "day": "01",
      "area": 59.82,
@@ -612,6 +699,16 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 108000,
+     "renew": "갱신"
+    },
     {
      "ym": "202606",
      "day": "27",
@@ -732,6 +829,16 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "11",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 175500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 59.98,
      "pyeong": 25,
@@ -759,6 +866,16 @@
      "apt_dong": "",
      "amount": 230000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 131200,
+     "renew": "갱신"
     },
     {
      "ym": "202605",
@@ -850,6 +967,33 @@
    "units": 4424,
    "sale": [
     {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 369500
+    },
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 393000
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 337000
+    },
+    {
      "ym": "202606",
      "day": "20",
      "area": 76.79,
@@ -907,6 +1051,86 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "21",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 78000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 72000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 75600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "08",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 84.43,
      "pyeong": 35,
@@ -914,6 +1138,16 @@
      "apt_dong": "",
      "amount": 91200,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "신규"
     },
     {
      "ym": "202607",
@@ -950,10 +1184,40 @@
      "day": "25",
      "area": 76.79,
      "pyeong": 31,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 40000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 76.79,
+     "pyeong": 31,
      "floor": "3",
      "apt_dong": "",
      "amount": 75000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 76.79,
+     "pyeong": 31,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 75000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -1078,6 +1342,16 @@
     {
      "ym": "202605",
      "day": "30",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 96000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
+     "day": "30",
      "area": 76.79,
      "pyeong": 31,
      "floor": "1",
@@ -1103,6 +1377,26 @@
      "floor": "10",
      "apt_dong": "",
      "amount": 71400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "29",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 95000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "29",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 95000,
      "renew": "갱신"
     },
     {
@@ -1154,6 +1448,16 @@
      "apt_dong": "",
      "amount": 70000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "22",
+     "area": 84.43,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 92000,
+     "renew": "신규"
     },
     {
      "ym": "202605",
@@ -1328,7 +1632,7 @@
      "area": 159.6,
      "pyeong": 65,
      "floor": "8",
-     "apt_dong": "",
+     "apt_dong": "14",
      "amount": 610000
     },
     {
@@ -1361,6 +1665,56 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "18",
+     "area": 84.81,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 118000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.81,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.81,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.81,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "08",
+     "area": 84.69,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "갱신"
+    },
+    {
      "ym": "202606",
      "day": "15",
      "area": 189.98,
@@ -1369,6 +1723,16 @@
      "apt_dong": "",
      "amount": 94500,
      "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 127.61,
+     "pyeong": 52,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 155000,
+     "renew": "신규"
     },
     {
      "ym": "202606",
@@ -1389,6 +1753,16 @@
      "apt_dong": "",
      "amount": 155000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "15",
+     "area": 127.61,
+     "pyeong": 52,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
     },
     {
      "ym": "202605",
@@ -1484,7 +1858,7 @@
      "area": 163.92,
      "pyeong": 67,
      "floor": "9",
-     "apt_dong": "",
+     "apt_dong": "2",
      "amount": 600000
     },
     {
@@ -1516,6 +1890,26 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.35,
+     "pyeong": 34,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 136.68,
+     "pyeong": 56,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "갱신"
+    },
     {
      "ym": "202606",
      "day": "29",
@@ -1626,6 +2020,15 @@
    "units": 2436,
    "sale": [
     {
+     "ym": "202607",
+     "day": "15",
+     "area": 128.01,
+     "pyeong": 52,
+     "floor": "2",
+     "apt_dong": "105",
+     "amount": 388000
+    },
+    {
      "ym": "202606",
      "day": "06",
      "area": 84.48,
@@ -1665,6 +2068,26 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "10",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 96600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 128.01,
+     "pyeong": 52,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 115.05,
      "pyeong": 47,
@@ -1681,6 +2104,26 @@
      "floor": "13",
      "apt_dong": "",
      "amount": 145000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "03",
+     "area": 128.01,
+     "pyeong": 52,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 145000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.48,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 89000,
      "renew": "갱신"
     },
     {
@@ -1732,6 +2175,16 @@
      "apt_dong": "",
      "amount": 100000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "09",
+     "area": 128.01,
+     "pyeong": 52,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 134000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -1953,6 +2406,42 @@
    "units": 3002,
    "sale": [
     {
+     "ym": "202607",
+     "day": "04",
+     "area": 120.82,
+     "pyeong": 49,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 438000
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 271000
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 377500
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 120.82,
+     "pyeong": 49,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 450000
+    },
+    {
      "ym": "202606",
      "day": "27",
      "area": 59.98,
@@ -2111,7 +2600,7 @@
      "area": 119.89,
      "pyeong": 49,
      "floor": "13",
-     "apt_dong": "",
+     "apt_dong": "410",
      "amount": 420000
     },
     {
@@ -2163,6 +2652,46 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 162060,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 85.0,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 163000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 120.82,
+     "pyeong": 49,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 185000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "10",
      "area": 120.82,
      "pyeong": 49,
@@ -2190,6 +2719,26 @@
      "apt_dong": "",
      "amount": 150000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "01",
+     "area": 119.89,
+     "pyeong": 49,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 114.99,
+     "pyeong": 47,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
     },
     {
      "ym": "202606",
@@ -2531,6 +3080,15 @@
    "units": 813,
    "sale": [
     {
+     "ym": "202606",
+     "day": "16",
+     "area": 115.63,
+     "pyeong": 47,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 365000
+    },
+    {
      "ym": "202605",
      "day": "27",
      "area": 111.39,
@@ -2550,6 +3108,16 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 115.63,
+     "pyeong": 47,
+     "floor": "35",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "갱신"
+    },
     {
      "ym": "202607",
      "day": "03",
@@ -2578,6 +3146,16 @@
      "floor": "44",
      "apt_dong": "",
      "amount": 290000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
+     "day": "17",
+     "area": 144.63,
+     "pyeong": 59,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 230000,
      "renew": "신규"
     },
     {
@@ -2708,7 +3286,7 @@
      "area": 59.99,
      "pyeong": 25,
      "floor": "16",
-     "apt_dong": "",
+     "apt_dong": "101",
      "amount": 273000
     },
     {
@@ -2749,6 +3327,26 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "갱신"
+    },
     {
      "ym": "202606",
      "day": "20",
@@ -2860,11 +3458,41 @@
      "area": 59.53,
      "pyeong": 24,
      "floor": "9",
-     "apt_dong": "",
+     "apt_dong": "106",
      "amount": 265000
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 80.87,
+     "pyeong": 33,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 59.53,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 80.87,
+     "pyeong": 33,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
+    },
     {
      "ym": "202606",
      "day": "30",
@@ -2883,6 +3511,16 @@
      "floor": "8",
      "apt_dong": "",
      "amount": 131250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 59.4,
+     "pyeong": 24,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 94500,
      "renew": "갱신"
     },
     {
@@ -3032,8 +3670,28 @@
    "loc": "강남구 역삼동",
    "built": "2016",
    "units": 408,
-   "sale": [],
+   "sale": [
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 327000
+    }
+   ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "19",
+     "area": 114.6,
+     "pyeong": 47,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "갱신"
+    },
     {
      "ym": "202606",
      "day": "17",
@@ -3124,6 +3782,16 @@
    "units": 240,
    "sale": [],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
     {
      "ym": "202605",
      "day": "22",
@@ -3327,6 +3995,36 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "26",
+     "area": 99.92,
+     "pyeong": 41,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 145000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "09",
      "area": 59.97,
      "pyeong": 25,
@@ -3378,11 +4076,31 @@
     {
      "ym": "202606",
      "day": "18",
+     "area": 99.99,
+     "pyeong": 41,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
      "area": 99.98,
      "pyeong": 41,
      "floor": "24",
      "apt_dong": "",
      "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 150000,
      "renew": "신규"
     },
     {
@@ -3675,12 +4393,30 @@
     },
     {
      "ym": "202607",
+     "day": "08",
+     "area": 96.91,
+     "pyeong": 40,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 380000
+    },
+    {
+     "ym": "202607",
      "day": "06",
      "area": 102.32,
      "pyeong": 42,
      "floor": "27",
      "apt_dong": "",
      "amount": 390000
+    },
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 320000
     },
     {
      "ym": "202606",
@@ -3805,7 +4541,7 @@
      "area": 84.86,
      "pyeong": 35,
      "floor": "10",
-     "apt_dong": "",
+     "apt_dong": "121",
      "amount": 313000
     },
     {
@@ -3911,6 +4647,56 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 59.92,
+     "pyeong": 24,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 74.66,
+     "pyeong": 31,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.86,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 142000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 74.66,
+     "pyeong": 31,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 59.92,
      "pyeong": 24,
@@ -3938,6 +4724,16 @@
      "apt_dong": "",
      "amount": 113000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 136.06,
+     "pyeong": 56,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 240000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -4218,6 +5014,24 @@
    "units": 3375,
    "sale": [
     {
+     "ym": "202607",
+     "day": "19",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 310500
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 109.88,
+     "pyeong": 45,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 430000
+    },
+    {
      "ym": "202606",
      "day": "26",
      "area": 49.95,
@@ -4229,11 +5043,29 @@
     {
      "ym": "202606",
      "day": "25",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 401000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
      "area": 45.88,
      "pyeong": 19,
      "floor": "5",
      "apt_dong": "",
      "amount": 248000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 371000
     },
     {
      "ym": "202606",
@@ -4430,7 +5262,7 @@
      "area": 78.73,
      "pyeong": 32,
      "floor": "5",
-     "apt_dong": "",
+     "apt_dong": "405",
      "amount": 335000
     },
     {
@@ -4444,6 +5276,56 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 78.77,
+     "pyeong": 32,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 115500,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.75,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 163000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 84.6,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
     {
      "ym": "202606",
      "day": "29",
@@ -4591,6 +5473,15 @@
      "floor": "21",
      "apt_dong": "",
      "amount": 432000
+    },
+    {
+     "ym": "202605",
+     "day": "23",
+     "area": 84.71,
+     "pyeong": 35,
+     "floor": "35",
+     "apt_dong": "",
+     "amount": 365000
     },
     {
      "ym": "202605",
@@ -4814,12 +5705,32 @@
    "jeonse": [
     {
      "ym": "202606",
+     "day": "27",
+     "area": 101.97,
+     "pyeong": 42,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
      "day": "20",
      "area": 59.99,
      "pyeong": 25,
      "floor": "5",
      "apt_dong": "",
      "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 101.99,
+     "pyeong": 42,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 155000,
      "renew": "신규"
     },
     {
@@ -5036,6 +5947,26 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "18",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 79500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 59.76,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 68200,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 59.76,
      "pyeong": 24,
@@ -5222,6 +6153,16 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "13",
+     "area": 101.97,
+     "pyeong": 42,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 115000,
+     "renew": "신규"
+    },
+    {
      "ym": "202605",
      "day": "25",
      "area": 134.44,
@@ -5252,12 +6193,75 @@
    "sale": [
     {
      "ym": "202607",
+     "day": "17",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 153800
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 148000
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 161000
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 159000
+    },
+    {
+     "ym": "202607",
+     "day": "03",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 161000
+    },
+    {
+     "ym": "202607",
      "day": "02",
      "area": 34.44,
      "pyeong": 14,
      "floor": "10",
      "apt_dong": "",
      "amount": 149000
+    },
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 161500
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 158000
     },
     {
      "ym": "202606",
@@ -5346,7 +6350,7 @@
      "area": 34.44,
      "pyeong": 14,
      "floor": "14",
-     "apt_dong": "",
+     "apt_dong": "1004",
      "amount": 147000
     },
     {
@@ -5380,6 +6384,76 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 49.5,
+     "pyeong": 20,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 34500,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 39.6,
+     "pyeong": 16,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 27563,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 27563,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 31500,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 31500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 34.44,
      "pyeong": 14,
@@ -5387,6 +6461,16 @@
      "apt_dong": "",
      "amount": 35000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 32500,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -5406,6 +6490,16 @@
      "floor": "2",
      "apt_dong": "",
      "amount": 68000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 34.44,
+     "pyeong": 14,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 40000,
      "renew": "신규"
     },
     {
@@ -5613,6 +6707,16 @@
      "day": "12",
      "area": 39.6,
      "pyeong": 16,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 36750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "12",
+     "area": 39.6,
+     "pyeong": 16,
      "floor": "3",
      "apt_dong": "",
      "amount": 40000,
@@ -5688,6 +6792,26 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "15",
+     "area": 60.0,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 52660,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 49.2,
+     "pyeong": 20,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 50400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "08",
      "area": 84.48,
      "pyeong": 35,
@@ -5754,6 +6878,16 @@
      "floor": "1",
      "apt_dong": "",
      "amount": 55000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 49.2,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 58000,
      "renew": "신규"
     },
     {
@@ -5846,6 +6980,15 @@
    "units": 1162,
    "sale": [
     {
+     "ym": "202607",
+     "day": "04",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 167000
+    },
+    {
      "ym": "202606",
      "day": "25",
      "area": 33.18,
@@ -5853,6 +6996,15 @@
      "floor": "7",
      "apt_dong": "",
      "amount": 159500
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 183500
     },
     {
      "ym": "202606",
@@ -5912,6 +7064,96 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 33600,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "21",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 48000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "12",
+     "area": 49.96,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 60000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 39.53,
+     "pyeong": 16,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 50000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 30870,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 49000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 33.18,
+     "pyeong": 14,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 42000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 33.18,
      "pyeong": 14,
@@ -5958,6 +7200,16 @@
      "floor": "8",
      "apt_dong": "",
      "amount": 45000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "23",
+     "area": 39.51,
+     "pyeong": 16,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 52000,
      "renew": "신규"
     },
     {
@@ -6211,6 +7463,16 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "14",
+     "area": 97.63,
+     "pyeong": 40,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 95000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "06",
      "area": 97.63,
      "pyeong": 40,
@@ -6458,6 +7720,16 @@
     },
     {
      "ym": "202605",
+     "day": "23",
+     "area": 71.99,
+     "pyeong": 29,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
      "day": "08",
      "area": 71.95,
      "pyeong": 29,
@@ -6545,6 +7817,24 @@
    "built": "2008",
    "units": 1144,
    "sale": [
+    {
+     "ym": "202607",
+     "day": "21",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 359000
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 355000
+    },
     {
      "ym": "202606",
      "day": "10",
@@ -6646,6 +7936,26 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 120750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 114.46,
+     "pyeong": 47,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 161700,
+     "renew": "갱신"
+    },
     {
      "ym": "202607",
      "day": "09",
@@ -6786,6 +8096,15 @@
    "units": 708,
    "sale": [
     {
+     "ym": "202607",
+     "day": "11",
+     "area": 89.36,
+     "pyeong": 37,
+     "floor": "35",
+     "apt_dong": "",
+     "amount": 560000
+    },
+    {
      "ym": "202606",
      "day": "18",
      "area": 89.11,
@@ -6850,6 +8169,36 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 89.11,
+     "pyeong": 36,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 168000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 49.62,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "08",
+     "area": 49.62,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
     {
      "ym": "202607",
      "day": "07",
@@ -7018,6 +8367,15 @@
    "built": "1987",
    "units": 911,
    "sale": [
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 118.63,
+     "pyeong": 48,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 515000
+    },
     {
      "ym": "202605",
      "day": "22",
@@ -7189,6 +8547,42 @@
    "units": 1924,
    "sale": [
     {
+     "ym": "202607",
+     "day": "13",
+     "area": 183.41,
+     "pyeong": 75,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 1050000
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 170.38,
+     "pyeong": 70,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 930000
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 182.95,
+     "pyeong": 75,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 1125000
+    },
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 107.16,
+     "pyeong": 44,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 580000
+    },
+    {
      "ym": "202606",
      "day": "20",
      "area": 112.05,
@@ -7275,7 +8669,7 @@
      "area": 108.88,
      "pyeong": 45,
      "floor": "6",
-     "apt_dong": "",
+     "apt_dong": "101",
      "amount": 629000
     },
     {
@@ -7309,12 +8703,52 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 155.52,
+     "pyeong": 64,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "21",
+     "area": 183.41,
+     "pyeong": 75,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 108.3,
+     "pyeong": 44,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "06",
      "area": 182.95,
      "pyeong": 75,
      "floor": "7",
      "apt_dong": "",
      "amount": 173000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 109.24,
+     "pyeong": 45,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 110000,
      "renew": "갱신"
     },
     {
@@ -7449,6 +8883,16 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "23",
+     "area": 157.36,
+     "pyeong": 64,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "10",
      "area": 144.2,
      "pyeong": 59,
@@ -7546,6 +8990,16 @@
      "apt_dong": "",
      "amount": 165000,
      "renew": "신규"
+    },
+    {
+     "ym": "202605",
+     "day": "27",
+     "area": 157.36,
+     "pyeong": 64,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
     },
     {
      "ym": "202605",
@@ -7667,12 +9121,30 @@
    "sale": [
     {
      "ym": "202607",
+     "day": "23",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 193000
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 84.99,
      "pyeong": 35,
      "floor": "9",
      "apt_dong": "",
      "amount": 290000
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 110.66,
+     "pyeong": 45,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 335000
     },
     {
      "ym": "202606",
@@ -8083,6 +9555,176 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "27",
+     "area": 39.1,
+     "pyeong": 16,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 55293,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 65000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 95000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 111300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 69300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 108000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 109200,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 39.86,
+     "pyeong": 16,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 73500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 39.12,
+     "pyeong": 16,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.96,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 110200,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 110.44,
+     "pyeong": 45,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 169000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "10",
      "area": 59.96,
      "pyeong": 25,
@@ -8090,6 +9732,16 @@
      "apt_dong": "",
      "amount": 96500,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
     },
     {
      "ym": "202607",
@@ -8110,6 +9762,26 @@
      "apt_dong": "",
      "amount": 105000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 39.17,
+     "pyeong": 16,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 68250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 110.44,
+     "pyeong": 45,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
     },
     {
      "ym": "202607",
@@ -8140,6 +9812,16 @@
      "apt_dong": "",
      "amount": 84000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 131250,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -8210,6 +9892,16 @@
      "apt_dong": "",
      "amount": 78000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -8340,6 +10032,16 @@
      "apt_dong": "",
      "amount": 113400,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 99.6,
+     "pyeong": 41,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 133000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -8824,6 +10526,16 @@
     {
      "ym": "202605",
      "day": "09",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "09",
      "area": 84.99,
      "pyeong": 35,
      "floor": "16",
@@ -8922,6 +10634,24 @@
    "sale": [
     {
      "ym": "202607",
+     "day": "16",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 294000
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 35.24,
+     "pyeong": 14,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 138000
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 35.24,
      "pyeong": 14,
@@ -8940,6 +10670,15 @@
     },
     {
      "ym": "202606",
+     "day": "27",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 298500
+    },
+    {
+     "ym": "202606",
      "day": "26",
      "area": 84.79,
      "pyeong": 35,
@@ -8953,7 +10692,7 @@
      "area": 35.24,
      "pyeong": 14,
      "floor": "5",
-     "apt_dong": "",
+     "apt_dong": "101",
      "amount": 110000
     },
     {
@@ -8985,6 +10724,15 @@
     },
     {
      "ym": "202606",
+     "day": "04",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 339000
+    },
+    {
+     "ym": "202606",
      "day": "02",
      "area": 84.9,
      "pyeong": 35,
@@ -9000,6 +10748,15 @@
      "floor": "12",
      "apt_dong": "",
      "amount": 296000
+    },
+    {
+     "ym": "202605",
+     "day": "30",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 290000
     },
     {
      "ym": "202605",
@@ -9097,7 +10854,7 @@
      "area": 35.24,
      "pyeong": 14,
      "floor": "11",
-     "apt_dong": "",
+     "apt_dong": "102",
      "amount": 141500
     },
     {
@@ -9124,7 +10881,7 @@
      "area": 35.24,
      "pyeong": 14,
      "floor": "3",
-     "apt_dong": "",
+     "apt_dong": "101",
      "amount": 138000
     },
     {
@@ -9189,6 +10946,15 @@
      "floor": "17",
      "apt_dong": "",
      "amount": 306000
+    },
+    {
+     "ym": "202605",
+     "day": "09",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 275000
     },
     {
      "ym": "202605",
@@ -9284,6 +11050,236 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 59.86,
+     "pyeong": 24,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 109700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 121.63,
+     "pyeong": 50,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "31",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 95550,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 35.24,
+     "pyeong": 14,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 60000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 122850,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 100000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 35.24,
+     "pyeong": 14,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 67000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 144.77,
+     "pyeong": 59,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 162750,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 121000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 35.24,
+     "pyeong": 14,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 47250,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 119000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 35.24,
+     "pyeong": 14,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 47250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 121.63,
+     "pyeong": 50,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 59.95,
+     "pyeong": 25,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 105000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 59.86,
+     "pyeong": 24,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 91300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "09",
      "area": 59.95,
      "pyeong": 25,
@@ -9344,6 +11340,26 @@
     },
     {
      "ym": "202607",
+     "day": "04",
+     "area": 59.95,
+     "pyeong": 25,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "03",
+     "area": 59.64,
+     "pyeong": 24,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "03",
      "area": 84.79,
      "pyeong": 35,
@@ -9361,6 +11377,26 @@
      "apt_dong": "",
      "amount": 125000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.79,
+     "pyeong": 35,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 123000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -10140,6 +12176,87 @@
    "units": 5678,
    "sale": [
     {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 320000
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.88,
+     "pyeong": 35,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 335000
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 328000
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 347500
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 325000
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 340000
+    },
+    {
+     "ym": "202607",
+     "day": "01",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 330000
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 300000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 345000
+    },
+    {
      "ym": "202606",
      "day": "24",
      "area": 84.8,
@@ -10181,7 +12298,7 @@
      "area": 84.8,
      "pyeong": 35,
      "floor": "14",
-     "apt_dong": "",
+     "apt_dong": "148",
      "amount": 322000
     },
     {
@@ -10262,7 +12379,7 @@
      "area": 84.8,
      "pyeong": 35,
      "floor": "18",
-     "apt_dong": "",
+     "apt_dong": "146",
      "amount": 340000
     },
     {
@@ -10350,6 +12467,96 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "27",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "1",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 120750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 140000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "09",
      "area": 59.96,
      "pyeong": 25,
@@ -10386,6 +12593,26 @@
      "floor": "25",
      "apt_dong": "",
      "amount": 98700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 115500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 102500,
      "renew": "갱신"
     },
     {
@@ -10481,6 +12708,16 @@
     {
      "ym": "202606",
      "day": "24",
+     "area": 84.88,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 132000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "24",
      "area": 59.96,
      "pyeong": 25,
      "floor": "6",
@@ -10516,6 +12753,16 @@
      "floor": "8",
      "apt_dong": "",
      "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 112350,
      "renew": "갱신"
     },
     {
@@ -10941,6 +13188,26 @@
     {
      "ym": "202605",
      "day": "13",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
+     "day": "13",
+     "area": 119.93,
+     "pyeong": 49,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
+     "day": "13",
      "area": 84.88,
      "pyeong": 35,
      "floor": "17",
@@ -11060,6 +13327,16 @@
     },
     {
      "ym": "202605",
+     "day": "05",
+     "area": 84.8,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
      "day": "04",
      "area": 84.8,
      "pyeong": 35,
@@ -11117,6 +13394,15 @@
    "built": "2008",
    "units": 3696,
    "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 320000
+    },
     {
      "ym": "202606",
      "day": "22",
@@ -11249,7 +13535,7 @@
      "area": 84.83,
      "pyeong": 35,
      "floor": "12",
-     "apt_dong": "",
+     "apt_dong": "345",
      "amount": 325000
     },
     {
@@ -11391,12 +13677,132 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "22",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 106000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "21",
+     "area": 114.7,
+     "pyeong": 47,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "21",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 128000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 114.7,
+     "pyeong": 47,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 134400,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 149.45,
+     "pyeong": 61,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 110000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 99750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 59.88,
+     "pyeong": 24,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 99750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "04",
      "area": 84.83,
      "pyeong": 35,
      "floor": "11",
      "apt_dong": "",
      "amount": 130000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "03",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 113400,
      "renew": "갱신"
     },
     {
@@ -11484,6 +13890,26 @@
      "day": "13",
      "area": 84.83,
      "pyeong": 35,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 123900,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 84.83,
+     "pyeong": 35,
      "floor": "25",
      "apt_dong": "",
      "amount": 122000,
@@ -11507,6 +13933,16 @@
      "floor": "7",
      "apt_dong": "",
      "amount": 99500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.83,
+     "pyeong": 35,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 129150,
      "renew": "갱신"
     },
     {
@@ -11742,6 +14178,16 @@
     {
      "ym": "202605",
      "day": "13",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 120750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202605",
+     "day": "13",
      "area": 84.95,
      "pyeong": 35,
      "floor": "18",
@@ -11829,6 +14275,33 @@
    "units": 5563,
    "sale": [
     {
+     "ym": "202607",
+     "day": "10",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 160000
+    },
+    {
+     "ym": "202607",
+     "day": "03",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 350000
+    },
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 59.99,
+     "pyeong": 25,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 304000
+    },
+    {
      "ym": "202606",
      "day": "29",
      "area": 84.99,
@@ -11845,6 +14318,24 @@
      "floor": "15",
      "apt_dong": "",
      "amount": 173000
+    },
+    {
+     "ym": "202606",
+     "day": "25",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 156000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 449000
     },
     {
      "ym": "202606",
@@ -12086,7 +14577,7 @@
      "area": 84.99,
      "pyeong": 35,
      "floor": "9",
-     "apt_dong": "",
+     "apt_dong": "225",
      "amount": 348000
     },
     {
@@ -12113,7 +14604,7 @@
      "area": 27.68,
      "pyeong": 11,
      "floor": "8",
-     "apt_dong": "",
+     "apt_dong": "243",
      "amount": 175000
     },
     {
@@ -12228,6 +14719,116 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 103318,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 64050,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 133350,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 39000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 147000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 136500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "10",
      "area": 27.68,
      "pyeong": 11,
@@ -12269,12 +14870,42 @@
     {
      "ym": "202607",
      "day": "04",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 52500,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 27.68,
+     "pyeong": 11,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 52500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
      "area": 59.99,
      "pyeong": 25,
      "floor": "26",
      "apt_dong": "",
      "amount": 125000,
      "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 141700,
+     "renew": "갱신"
     },
     {
      "ym": "202607",
@@ -12375,6 +15006,16 @@
      "apt_dong": "",
      "amount": 150000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 124.22,
+     "pyeong": 51,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 183750,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -12866,6 +15507,15 @@
    "units": 12032,
    "sale": [
     {
+     "ym": "202607",
+     "day": "25",
+     "area": 95.97,
+     "pyeong": 39,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 250000
+    },
+    {
      "ym": "202606",
      "day": "25",
      "area": 84.99,
@@ -12893,6 +15543,15 @@
      "amount": 250000
     },
     {
+     "ym": "202606",
+     "day": "01",
+     "area": 109.98,
+     "pyeong": 45,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 336000
+    },
+    {
      "ym": "202605",
      "day": "30",
      "area": 84.99,
@@ -12912,6 +15571,15 @@
     },
     {
      "ym": "202605",
+     "day": "28",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 281000
+    },
+    {
+     "ym": "202605",
      "day": "26",
      "area": 84.99,
      "pyeong": 35,
@@ -12921,12 +15589,39 @@
     },
     {
      "ym": "202605",
+     "day": "26",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 275000
+    },
+    {
+     "ym": "202605",
      "day": "23",
      "area": 39.98,
      "pyeong": 16,
      "floor": "13",
      "apt_dong": "",
      "amount": 181000
+    },
+    {
+     "ym": "202605",
+     "day": "22",
+     "area": 95.97,
+     "pyeong": 39,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 302000
+    },
+    {
+     "ym": "202605",
+     "day": "22",
+     "area": 29.97,
+     "pyeong": 12,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 115000
     },
     {
      "ym": "202605",
@@ -12963,6 +15658,15 @@
      "floor": "29",
      "apt_dong": "",
      "amount": 357500
+    },
+    {
+     "ym": "202605",
+     "day": "11",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 287000
     },
     {
      "ym": "202605",
@@ -13292,6 +15996,96 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "26",
+     "area": 39.95,
+     "pyeong": 16,
+     "floor": "30",
+     "apt_dong": "",
+     "amount": 70000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 59.99,
+     "pyeong": 25,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 94500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 39.95,
+     "pyeong": 16,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 28125,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 29.97,
+     "pyeong": 12,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 21000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 29.97,
+     "pyeong": 12,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 21000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 29.97,
+     "pyeong": 12,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 21000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 94000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "06",
      "area": 134.97,
      "pyeong": 55,
@@ -13299,6 +16093,16 @@
      "apt_dong": "",
      "amount": 145000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 145000,
+     "renew": "신규"
     },
     {
      "ym": "202607",
@@ -13329,6 +16133,26 @@
      "apt_dong": "",
      "amount": 140000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 39.98,
+     "pyeong": 16,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 82000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.99,
+     "pyeong": 35,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 142000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -13460,6 +16284,24 @@
    "units": 572,
    "sale": [
     {
+     "ym": "202607",
+     "day": "02",
+     "area": 93.54,
+     "pyeong": 38,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 189700
+    },
+    {
+     "ym": "202606",
+     "day": "16",
+     "area": 95.24,
+     "pyeong": 39,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 174000
+    },
+    {
      "ym": "202606",
      "day": "02",
      "area": 93.54,
@@ -13479,6 +16321,15 @@
     },
     {
      "ym": "202605",
+     "day": "17",
+     "area": 93.85,
+     "pyeong": 38,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 181000
+    },
+    {
+     "ym": "202605",
      "day": "05",
      "area": 95.24,
      "pyeong": 39,
@@ -13488,6 +16339,16 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 95.24,
+     "pyeong": 39,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 78750,
+     "renew": "갱신"
+    },
     {
      "ym": "202607",
      "day": "08",
@@ -13548,6 +16409,60 @@
    "units": 800,
    "sale": [
     {
+     "ym": "202607",
+     "day": "12",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 156500
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.92,
+     "pyeong": 35,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 168000
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 156000
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 153000
+    },
+    {
+     "ym": "202606",
+     "day": "30",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 149000
+    },
+    {
+     "ym": "202606",
+     "day": "05",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 163000
+    },
+    {
      "ym": "202606",
      "day": "01",
      "area": 59.98,
@@ -13604,6 +16519,16 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "17",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 45150,
+     "renew": "신규"
+    },
+    {
      "ym": "202606",
      "day": "26",
      "area": 84.92,
@@ -13645,6 +16570,16 @@
     },
     {
      "ym": "202606",
+     "day": "15",
+     "area": 84.9,
+     "pyeong": 35,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
      "day": "09",
      "area": 84.9,
      "pyeong": 35,
@@ -13672,6 +16607,87 @@
    "built": "2019",
    "units": 4932,
    "sale": [
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.05,
+     "pyeong": 34,
+     "floor": "18",
+     "apt_dong": "",
+     "amount": 254500
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 250000
+    },
+    {
+     "ym": "202606",
+     "day": "26",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 225000
+    },
+    {
+     "ym": "202606",
+     "day": "22",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 211000
+    },
+    {
+     "ym": "202606",
+     "day": "21",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 193000
+    },
+    {
+     "ym": "202606",
+     "day": "20",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 220000
+    },
+    {
+     "ym": "202606",
+     "day": "19",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 220000
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 241000
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 204000
+    },
     {
      "ym": "202606",
      "day": "10",
@@ -13822,7 +16838,7 @@
      "area": 59.78,
      "pyeong": 24,
      "floor": "3",
-     "apt_dong": "",
+     "apt_dong": "139",
      "amount": 189500
     },
     {
@@ -13854,6 +16870,146 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "25",
+     "area": 73.57,
+     "pyeong": 30,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 100000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 99750,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 91350,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 65000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "21",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 60000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "20",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 89000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 84.24,
+     "pyeong": 34,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 89000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 87000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 73.87,
+     "pyeong": 30,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 73000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 85000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 97.78,
+     "pyeong": 40,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 69300,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 83000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 83000,
+     "renew": "신규"
+    },
     {
      "ym": "202607",
      "day": "06",
@@ -13893,6 +17049,16 @@
      "apt_dong": "",
      "amount": 88000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 87000,
+     "renew": "신규"
     },
     {
      "ym": "202607",
@@ -14063,6 +17229,16 @@
      "apt_dong": "",
      "amount": 90000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "11",
+     "area": 59.78,
+     "pyeong": 24,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 63000,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -14554,6 +17730,15 @@
    "units": 656,
    "sale": [
     {
+     "ym": "202607",
+     "day": "04",
+     "area": 59.14,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 162000
+    },
+    {
      "ym": "202605",
      "day": "27",
      "area": 59.06,
@@ -14611,6 +17796,26 @@
      "apt_dong": "",
      "amount": 60900,
      "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.14,
+     "pyeong": 24,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 68000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "27",
+     "area": 59.06,
+     "pyeong": 24,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 80000,
+     "renew": "신규"
     },
     {
      "ym": "202606",
@@ -14674,6 +17879,16 @@
     },
     {
      "ym": "202605",
+     "day": "30",
+     "area": 59.14,
+     "pyeong": 24,
+     "floor": "36",
+     "apt_dong": "",
+     "amount": 62000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202605",
      "day": "29",
      "area": 59.09,
      "pyeong": 24,
@@ -14712,6 +17927,33 @@
    "units": 2990,
    "sale": [
     {
+     "ym": "202607",
+     "day": "06",
+     "area": 116.95,
+     "pyeong": 48,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 900000
+    },
+    {
+     "ym": "202607",
+     "day": "06",
+     "area": 101.97,
+     "pyeong": 42,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 690000
+    },
+    {
+     "ym": "202606",
+     "day": "24",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 563000
+    },
+    {
      "ym": "202606",
      "day": "18",
      "area": 59.96,
@@ -14719,6 +17961,15 @@
      "floor": "32",
      "apt_dong": "",
      "amount": 460000
+    },
+    {
+     "ym": "202606",
+     "day": "15",
+     "area": 168.87,
+     "pyeong": 69,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 1220000
     },
     {
      "ym": "202606",
@@ -14886,6 +18137,46 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "23",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 199500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "17",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "27",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 116.92,
+     "pyeong": 48,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 350000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 133.91,
+     "pyeong": 55,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 341250,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
      "day": "10",
      "area": 116.93,
      "pyeong": 48,
@@ -14893,6 +18184,16 @@
      "apt_dong": "",
      "amount": 340000,
      "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 101.96,
+     "pyeong": 42,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 246750,
+     "renew": "갱신"
     },
     {
      "ym": "202607",
@@ -15012,6 +18313,16 @@
      "floor": "25",
      "apt_dong": "",
      "amount": 169000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "06",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "11",
+     "apt_dong": "",
+     "amount": 160000,
      "renew": "신규"
     },
     {
@@ -15224,6 +18535,15 @@
    "units": 1612,
    "sale": [
     {
+     "ym": "202606",
+     "day": "29",
+     "area": 178.94,
+     "pyeong": 73,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 980000
+    },
+    {
      "ym": "202605",
      "day": "28",
      "area": 129.92,
@@ -15231,6 +18551,15 @@
      "floor": "4",
      "apt_dong": "",
      "amount": 710000
+    },
+    {
+     "ym": "202605",
+     "day": "27",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 555000
     },
     {
      "ym": "202605",
@@ -15283,7 +18612,7 @@
      "area": 59.98,
      "pyeong": 25,
      "floor": "17",
-     "apt_dong": "",
+     "apt_dong": "102동",
      "amount": 420000
     },
     {
@@ -15306,6 +18635,26 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 70903,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "15",
+     "area": 59.97,
+     "pyeong": 25,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 130000,
+     "renew": "신규"
+    },
     {
      "ym": "202607",
      "day": "08",
@@ -15335,6 +18684,16 @@
      "apt_dong": "",
      "amount": 250000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "01",
+     "area": 84.95,
+     "pyeong": 35,
+     "floor": "37",
+     "apt_dong": "",
+     "amount": 200000,
+     "renew": "신규"
     },
     {
      "ym": "202606",
@@ -15641,6 +19000,15 @@
     {
      "ym": "202605",
      "day": "06",
+     "area": 198.04,
+     "pyeong": 81,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 805000
+    },
+    {
+     "ym": "202605",
+     "day": "06",
      "area": 168.65,
      "pyeong": 69,
      "floor": "29",
@@ -15658,6 +19026,76 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "27",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 90433,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "27",
+     "area": 59.96,
+     "pyeong": 25,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 84000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "27",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "16",
+     "area": 198.22,
+     "pyeong": 81,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 336000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "21",
+     "apt_dong": "",
+     "amount": 70336,
+     "renew": "갱신"
+    },
     {
      "ym": "202607",
      "day": "08",
@@ -15686,6 +19124,16 @@
      "floor": "3",
      "apt_dong": "",
      "amount": 105105,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "04",
+     "area": 84.93,
+     "pyeong": 35,
+     "floor": "29",
+     "apt_dong": "",
+     "amount": 171000,
      "renew": "갱신"
     },
     {
@@ -15747,6 +19195,16 @@
      "apt_dong": "",
      "amount": 170000,
      "renew": "신규"
+    },
+    {
+     "ym": "202606",
+     "day": "13",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 88200,
+     "renew": "갱신"
     },
     {
      "ym": "202606",
@@ -15929,6 +19387,33 @@
    "sale": [
     {
      "ym": "202606",
+     "day": "20",
+     "area": 132.44,
+     "pyeong": 54,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 615000
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 132.44,
+     "pyeong": 54,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 580000
+    },
+    {
+     "ym": "202606",
+     "day": "14",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 360000
+    },
+    {
+     "ym": "202606",
      "day": "13",
      "area": 244.54,
      "pyeong": 100,
@@ -16012,6 +19497,96 @@
    "jeonse": [
     {
      "ym": "202607",
+     "day": "25",
+     "area": 84.94,
+     "pyeong": 35,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 92820,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 165.45,
+     "pyeong": 68,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 273000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 92820,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 92820,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "12",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 73368,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "11",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 162700,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "10",
+     "area": 244.54,
+     "pyeong": 100,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 390000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "09",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "26",
+     "apt_dong": "",
+     "amount": 126000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
      "day": "08",
      "area": 59.98,
      "pyeong": 25,
@@ -16019,6 +19594,26 @@
      "apt_dong": "",
      "amount": 73368,
      "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "06",
+     "area": 165.45,
+     "pyeong": 68,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 280000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "02",
+     "area": 84.98,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 180000,
+     "renew": "신규"
     },
     {
      "ym": "202607",
@@ -16079,6 +19674,16 @@
      "apt_dong": "",
      "amount": 130000,
      "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "18",
+     "area": 59.98,
+     "pyeong": 25,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 135000,
+     "renew": "신규"
     },
     {
      "ym": "202606",
@@ -16222,6 +19827,16 @@
     },
     {
      "ym": "202605",
+     "day": "21",
+     "area": 244.54,
+     "pyeong": 100,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 375000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202605",
      "day": "20",
      "area": 84.98,
      "pyeong": 35,
@@ -16310,6 +19925,15 @@
    "units": 1212,
    "sale": [
     {
+     "ym": "202606",
+     "day": "05",
+     "area": 100.11,
+     "pyeong": 41,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 445000
+    },
+    {
      "ym": "202605",
      "day": "26",
      "area": 105.44,
@@ -16338,6 +19962,16 @@
     }
    ],
    "jeonse": [
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 96.48,
+     "pyeong": 39,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 90000,
+     "renew": "갱신"
+    },
     {
      "ym": "202606",
      "day": "13",
@@ -16477,6 +20111,56 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "22",
+     "area": 59.35,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 125000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 84.97,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 150000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 59.93,
+     "pyeong": 24,
+     "floor": "25",
+     "apt_dong": "",
+     "amount": 136500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 98.45,
+     "pyeong": 40,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 184800,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 84.92,
+     "pyeong": 35,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 157500,
+     "renew": "갱신"
+    },
+    {
      "ym": "202606",
      "day": "29",
      "area": 84.87,
@@ -16553,6 +20237,15 @@
      "floor": "23",
      "apt_dong": "",
      "amount": 330000
+    },
+    {
+     "ym": "202606",
+     "day": "28",
+     "area": 84.25,
+     "pyeong": 34,
+     "floor": "32",
+     "apt_dong": "",
+     "amount": 530000
     },
     {
      "ym": "202606",
@@ -16800,6 +20493,346 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "24",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 49.7,
+     "pyeong": 20,
+     "floor": "19",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 49.78,
+     "pyeong": 20,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "2",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "15",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "10",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "14",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.7,
+     "pyeong": 20,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.7,
+     "pyeong": 20,
+     "floor": "6",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "16",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "4",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.44,
+     "pyeong": 18,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.7,
+     "pyeong": 20,
+     "floor": "5",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.64,
+     "pyeong": 20,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.44,
+     "pyeong": 18,
+     "floor": "7",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 43.05,
+     "pyeong": 18,
+     "floor": "13",
+     "apt_dong": "",
+     "amount": 68640,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "22",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "22",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "18",
+     "area": 59.17,
+     "pyeong": 24,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 120000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "20",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "14",
+     "area": 49.29,
+     "pyeong": 20,
+     "floor": "9",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "13",
+     "area": 49.64,
+     "pyeong": 20,
+     "floor": "8",
+     "apt_dong": "",
+     "amount": 81900,
+     "renew": "신규"
+    },
+    {
      "ym": "202606",
      "day": "25",
      "area": 84.25,
@@ -16938,6 +20971,66 @@
    ],
    "jeonse": [
     {
+     "ym": "202607",
+     "day": "25",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "33",
+     "apt_dong": "",
+     "amount": 160000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "24",
+     "area": 59.94,
+     "pyeong": 25,
+     "floor": "12",
+     "apt_dong": "",
+     "amount": 137000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.35,
+     "pyeong": 34,
+     "floor": "23",
+     "apt_dong": "",
+     "amount": 190000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 84.92,
+     "pyeong": 35,
+     "floor": "3",
+     "apt_dong": "",
+     "amount": 170000,
+     "renew": "신규"
+    },
+    {
+     "ym": "202607",
+     "day": "23",
+     "area": 97.47,
+     "pyeong": 40,
+     "floor": "24",
+     "apt_dong": "",
+     "amount": 175000,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "29",
+     "area": 59.89,
+     "pyeong": 24,
+     "floor": "28",
+     "apt_dong": "",
+     "amount": 165000,
+     "renew": "신규"
+    },
+    {
      "ym": "202606",
      "day": "27",
      "area": 97.47,
@@ -16955,6 +21048,16 @@
      "floor": "2",
      "apt_dong": "",
      "amount": 157500,
+     "renew": "갱신"
+    },
+    {
+     "ym": "202606",
+     "day": "12",
+     "area": 84.35,
+     "pyeong": 34,
+     "floor": "17",
+     "apt_dong": "",
+     "amount": 180000,
      "renew": "갱신"
     },
     {
